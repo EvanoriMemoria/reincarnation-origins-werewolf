@@ -1,6 +1,7 @@
 {
   "powers": [
-    "reincarnation-origins:werewolf/all_forms/moonbuffs",
+    "reincarnation-origins:werewolf/all_forms/moon_buffs",
+    "reincarnation-origins:werewolf/all_forms/moon_health",
     "reincarnation-origins:werewolf/brute_wolf/"
   ],
   "icon": "minecraft:bone",
