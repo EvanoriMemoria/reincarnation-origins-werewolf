@@ -1,0 +1,6 @@
+{
+  "parent":"minecraft:item/generated",
+  "textures":{
+    "layer0":"reincarnation-origins:item/petrified_heart_pink_tier_3"
+  }
+}

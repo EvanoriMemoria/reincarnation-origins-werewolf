@@ -1,0 +1,21 @@
+{
+	"display":{
+		"title":{
+			"translate":"reincarnation-origins.advancements.zombified_piglin.name"
+		},
+		"description":{
+			"translate":"reincarnation-origins.advancements.zombified_piglin.description"
+		},
+		"icon":{
+			"item":"minecraft:golden_sword"
+		},
+		"announce_to_chat":false,
+		"background":"minecraft:textures/gui/advancements/backgrounds/stone.png"
+	},
+	"criteria":{
+		"b":{
+			"trigger":"minecraft:impossible"
+		}
+	},
+	"parent":"reincarnation-origins:deathsworn/zombie"
+}

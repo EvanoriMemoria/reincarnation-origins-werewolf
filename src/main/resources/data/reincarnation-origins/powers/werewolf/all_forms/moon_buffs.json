@@ -1,0 +1,117 @@
+{
+  "hidden": false,
+  "type": "origins:multiple",
+  "new_moon": {
+    "type": "origins:and",
+    "buffs": {
+      "type": "origins:apply_effect",
+      "effect": {
+        "effect": "minecraft:weakness",
+        "duration": 20,
+        "amplifier": 0,
+        "is_ambient": true,
+        "show_particles": false,
+        "show_icon": true
+      },
+      "condition": "minecraft:time_check",
+      "value": {
+        "min": 109000,
+        "max": 119400
+      },
+      "period": 192000
+    },
+    "health": {
+      "type": "origins:conditioned_attribute",
+      "modifier": {
+        "attribute": "minecraft:generic.max_health",
+        "value": -4,
+        "operation": "addition"
+      },
+      "update_health": true,
+      "condition": "minecraft:time_check",
+      "value": {
+        "min": 109000,
+        "max": 119400
+      },
+      "period": 192000
+    }
+  },
+  "first/third_quarter": {
+    "type": "origins:and",
+    "buffs": {
+      "type": "origins:apply_effect",
+      "effects": [
+        {
+          "effect": "minecraft:speed",
+          "duration": 20,
+          "amplifier": 0,
+          "is_ambient": true,
+          "show_particles": false,
+          "show_icon": true
+        },
+        {
+          "effect": "minecraft:haste",
+          "duration": 20,
+          "amplifier": 0,
+          "is_ambient": true,
+          "show_particles": false,
+          "show_icon": true
+        }
+      ],
+      "condition": "minecraft:time_check",
+      "value": {
+        "min": 157000,
+        "max": 167400
+      },
+      "period": 192000
+    },
+    "health": {
+      "type": "origins:conditioned_attribute",
+      "modifier": {
+        "attribute": "minecraft:generic.max_health",
+        "value": 4,
+        "operation": "addition"
+      },
+      "condition": "minecraft:time_check",
+      "value": {
+        "min": 157000,
+        "max": 167400
+      },
+      "period": 192000
+    }
+  },
+  "full_moon": {
+    "type": "origins:and",
+    "buffs": {
+      "type": "origins:apply_effect",
+      "effect": {
+        "effect": "minecraft:strength",
+        "duration": 20,
+        "amplifier": 2,
+        "is_ambient": true,
+        "show_particles": false,
+        "show_icon": true
+      },
+      "condition": "minecraft:time_check",
+      "value": {
+        "min": 13000,
+        "max": 23400
+      },
+      "period": 192000
+    },
+    "health": {
+      "type": "origins:conditioned_attribute",
+      "modifier": {
+        "attribute": "minecraft:generic.max_health",
+        "value": 8,
+        "operation": "addition"
+      },
+      "condition": "minecraft:time_check",
+      "value": {
+        "min": 13000,
+        "max": 23400
+      },
+      "period": 192000
+    }
+  }
+}

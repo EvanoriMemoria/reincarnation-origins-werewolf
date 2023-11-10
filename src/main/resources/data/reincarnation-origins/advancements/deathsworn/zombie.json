@@ -1,0 +1,21 @@
+{
+	"display":{
+		"title":{
+			"translate":"reincarnation-origins.advancements.zombie.name"
+		},
+		"description":{
+			"translate":"reincarnation-origins.advancements.zombie.description"
+		},
+		"icon":{
+			"item":"minecraft:rotten_flesh"
+		},
+		"announce_to_chat":false,
+		"background":"minecraft:textures/gui/advancements/backgrounds/stone.png"
+	},
+	"criteria":{
+		"b":{
+			"trigger":"minecraft:impossible"
+		}
+	},
+	"parent":"reincarnation-origins:deathsworn/summon"
+}

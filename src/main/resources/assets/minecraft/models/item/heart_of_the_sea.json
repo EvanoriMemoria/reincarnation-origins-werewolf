@@ -1,0 +1,44 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/heart_of_the_sea"
+  },
+  "overrides": [
+    {
+      "predicate": { "custom_model_data": 1 },
+      "model": "reincarnation-origins:item/petrified_heart_tier_1"
+    },
+    {
+      "predicate": { "custom_model_data": 2 },
+      "model": "reincarnation-origins:item/petrified_heart_pink_tier_2"
+    },
+    {
+      "predicate": { "custom_model_data": 3 },
+      "model": "reincarnation-origins:item/petrified_heart_pink_tier_3"
+    },
+    {
+      "predicate": { "custom_model_data": 4 },
+      "model": "reincarnation-origins:item/petrified_heart_pink_tier_4"
+    },
+    {
+      "predicate": { "custom_model_data": 5 },
+      "model": "reincarnation-origins:item/petrified_heart_pink_tier_5"
+    },
+    {
+      "predicate": { "custom_model_data": 6 },
+      "model": "reincarnation-origins:item/petrified_heart_purp_tier_2"
+    },
+    {
+      "predicate": { "custom_model_data": 7 },
+      "model": "reincarnation-origins:item/petrified_heart_purp_tier_3"
+    },
+    {
+      "predicate": { "custom_model_data": 8 },
+      "model": "reincarnation-origins:item/petrified_heart_purp_tier_4"
+    },
+    {
+      "predicate": { "custom_model_data": 9 },
+      "model": "reincarnation-origins:item/petrified_heart_purp_tier_5"
+    }
+  ]
+}

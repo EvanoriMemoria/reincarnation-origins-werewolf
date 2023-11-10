@@ -1,0 +1,35 @@
+{
+    "schemaVersion": 1,
+    "id": "reincarnation-origins-werewolf",
+    "version": "1.0.0",
+    "name": "Reincarnation Origins: Werewolf",
+    "description": "Adds the Werewolf origin!",
+    "authors": [
+        "fergenbergel"
+    ],
+    "contact": {
+        "homepage": "https://github.com/EvanoriMemoria/reincarnation-origins-deathsworn",
+        "issues": "https://github.com/EvanoriMemoria/reincarnation-origins-deathsworn/issues",
+        "discord": "https://discord.com/invite/Yq7n97f"
+    },
+    "license": "MIT License",
+    "icon": "assets/reincarnationorigins/icon.png",
+    "environment": "*",
+    "depends": {
+        "origins": ">=1.6",
+        "pehkui": ">=3.3.3",
+        "minecraft": ">=1.19.2"
+    },
+    "breaks":{
+        "bot": "*",
+        "origins-minus": "*"
+    },
+    "custom": {
+        "modmenu": {
+            "parent": {
+                "id": "origins"
+            },
+            "update_checker": true
+        }
+    }
+}
