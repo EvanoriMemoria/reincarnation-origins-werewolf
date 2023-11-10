@@ -5,65 +5,65 @@ This mod is used in the [Reincarnation Modpack](https://modrinth.com/modpack/abe
 The Reincarnated Werewolf is entirely custom made. Transform into three different variants of the werewolf each with different strengths and weaknesses.
 
 ## Human Form
-**Positive**
+### Positive
 -
 -
 -
 
-**Neutral**
+### Neutral
 -
 -
 -
 
-**Negative**
+### Negative
 - 
 -
 -
 
 ## Lithe Form
-**Positive**
+### Positive
 -
 -
 -
 
-**Neutral**
+### Neutral
 -
 -
 -
 
-**Negative**
+### Negative
 - 
 -
 -
 
 ## Pack Form
-**Positive**
+### Positive
 -
 -
 -
 
-**Neutral**
+### Neutral
 -
 -
 -
 
-**Negative**
+### Negative
 - 
 -
 -
 
 ## Brute Form
-**Positive**
+### Positive
 -
 -
 -
 
-**Neutral**
+### Neutral
 -
 -
 -
 
-**Negative**
+### Negative
 - 
 -
 -
