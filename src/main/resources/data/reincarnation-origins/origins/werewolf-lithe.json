@@ -7,5 +7,5 @@
   "impact": 3,
   "name": "Werewolf: Lithe Form",
   "description": "You are a shadow in the night, stalking your prey in the dark.",
-  "hidden": "true"
+  "unchoosable":true
 }

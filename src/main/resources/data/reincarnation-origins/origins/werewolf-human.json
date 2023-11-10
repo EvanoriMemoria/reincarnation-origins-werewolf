@@ -1,9 +1,11 @@
 {
   "powers": [
-    "reincarnation-origins:werewolf/all_forms/moonbuffs"
+    "reincarnation-origins:werewolf/all_forms/moonbuffs",
+    "reincarnation-origins:werewolf/human/bloodlust",
+    "reincarnation-origins:werewolf/human/transformation"
   ],
   "icon": "minecraft:bone",
   "impact": 3,
   "name": "Werewolf",
-  "description": "A transformative creature, capable of shifting to suit the situation."
+  "description": "A powerful transformative creature, capable of shifting to suit the situation."
 }
