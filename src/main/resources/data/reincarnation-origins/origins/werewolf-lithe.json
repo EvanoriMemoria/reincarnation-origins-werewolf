@@ -1,7 +1,11 @@
 {
   "powers": [
     "reincarnation-origins:werewolf/all_forms/moon_buffs",
-    "reincarnation-origins:werewolf/all_forms/moon_health"
+    "reincarnation-origins:werewolf/all_forms/moon_health",
+    "reincarnation-origins:werewolf/lithe/callbacks",
+    "reincarnation-origins:werewolf/lithe/timer",
+    "reincarnation-origins:werewolf/lithe/attributes",
+    "reincarnation-origins:werewolf/lithe/invisibility"
   ],
   "icon": "minecraft:cobblestone",
   "impact": 3,

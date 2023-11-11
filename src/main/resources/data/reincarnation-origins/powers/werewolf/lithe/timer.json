@@ -1,0 +1,33 @@
+{
+    "type": "origins:multiple",
+    "cooldown": {
+      "type": "origins:cooldown",
+      "cooldown": 3600,
+      "hud_render": {
+        "should_render": false,
+        "bar_index": 1
+      }
+    },
+    "trigger": {
+      "type": "origins:action_on_callback",
+      "entity_action_gained": {
+        "type": "origins:trigger_cooldown",
+        "power": "reincarnation-origins:werewolf/lithe/timer_cooldown"
+      }
+    },
+    "timer_check": {
+      "type": "origins:action_over_time",
+      "entity_action": {
+        "type": "origins:execute_command",
+        "command": "origin set @s origins:origin reincarnation-origins:werewolf-human"
+      },
+      "interval": 100,
+      "condition": {
+        "type": "origins:resource",
+        "resource": "reincarnation-origins:werewolf/lithe/timer_cooldown",
+        "comparison": "==",
+        "compare_to": 0
+      }
+    }
+  }
+  
