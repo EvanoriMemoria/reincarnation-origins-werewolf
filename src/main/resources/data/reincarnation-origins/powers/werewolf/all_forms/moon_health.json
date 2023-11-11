@@ -1,23 +1,81 @@
 {
   "type": "origins:multiple",
-  "full_moon": {
+  "scoreboard": {
+    "type": "origins:action_on_callback",
+    "entity_action_chosen": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:execute_command",
+          "command": "scoreboard objectives add MoonCycle dummy"
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "scoreboard players set operator MoonCycle 8"
+        }
+      ]
+    },
+    "entity_action_lost": {
+      "type": "origins:execute_command",
+      "command": "scoreboard objectives remove MoonCycle"
+    }
+  },
+  "save-day": {
+    "type": "origins:action_over_time",
+    "interval": 20,
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:execute_command",
+          "command": "execute store result score MoonCycle MoonCycle run time query day"
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "scoreboard players operation MoonCycle MoonCycle %= operator MoonCycle"
+        }
+      ]
+    }
+  },
+  "calculate-moon": {
+    "type": "origins:action_over_time",
+    "interval": 20,
+    "entity_action": {
+      "type": "origins:execute_command",
+      "command": "scoreboard players operation MoonCycle MoonCycle %= operator MoonCycle"
+    }
+  },
+  "full-moon-condition": {
     "type": "origins:conditioned_attribute",
     "modifier": {
       "attribute": "minecraft:generic.max_health",
-      "value": 8,
+      "value": 10,
       "operation": "addition"
     },
     "update_health": true,
     "condition": {
-      "type": "minecraft:time_check",
-      "value": {
-        "min": 13000,
-        "max": 23400
-      },
-      "period": 192000
+      "type": "origins:command",
+      "command": "execute if score MoonCycle MoonCycle matches 0",
+      "comparison": "==",
+      "compare_to": 1
     }
   },
-  "first/third_quarter_moons": {
+  "waning-gibbous-condition": {
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+      "attribute": "minecraft:generic.max_health",
+      "value": 6,
+      "operation": "addition"
+    },
+    "update_health": true,
+    "condition": {
+      "type": "origins:command",
+      "command": "execute if score MoonCycle MoonCycle matches 1",
+      "comparison": "==",
+      "compare_to": 1
+    }
+  },
+  "last-quarter-condition": {
     "type": "origins:conditioned_attribute",
     "modifier": {
       "attribute": "minecraft:generic.max_health",
@@ -26,15 +84,28 @@
     },
     "update_health": true,
     "condition": {
-      "type": "minecraft:time_check",
-      "value": {
-        "min": 157000,
-        "max": 167400
-      },
-      "period": 192000
+      "type": "origins:command",
+      "command": "execute if score MoonCycle MoonCycle matches 2",
+      "comparison": "==",
+      "compare_to": 1
     }
   },
-  "new_moon": {
+  "waning-crescent-condition": {
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+      "attribute": "minecraft:generic.max_health",
+      "value": 2,
+      "operation": "addition"
+    },
+    "update_health": true,
+    "condition": {
+      "type": "origins:command",
+      "command": "execute if score MoonCycle MoonCycle matches 3",
+      "comparison": "==",
+      "compare_to": 1
+    }
+  },
+  "new-moon-condition": {
     "type": "origins:conditioned_attribute",
     "modifier": {
       "attribute": "minecraft:generic.max_health",
@@ -43,12 +114,55 @@
     },
     "update_health": true,
     "condition": {
-      "type": "minecraft:time_check",
-      "value": {
-        "min": 109000,
-        "max": 119400
-      },
-      "period": 192000
+      "type": "origins:command",
+      "command": "execute if score MoonCycle MoonCycle matches 4",
+      "comparison": "==",
+      "compare_to": 1
+    }
+  },
+  "waxing-crescent-condition": {
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+      "attribute": "minecraft:generic.max_health",
+      "value": 2,
+      "operation": "addition"
+    },
+    "update_health": true,
+    "condition": {
+      "type": "origins:command",
+      "command": "execute if score MoonCycle MoonCycle matches 5",
+      "comparison": "==",
+      "compare_to": 1
+    }
+  },
+  "first-quarter-condition": {
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+      "attribute": "minecraft:generic.max_health",
+      "value": 4,
+      "operation": "addition"
+    },
+    "update_health": true,
+    "condition": {
+      "type": "origins:command",
+      "command": "execute if score MoonCycle MoonCycle matches 6",
+      "comparison": "==",
+      "compare_to": 1
+    }
+  },
+  "waxing-gibbous-condition": {
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+      "attribute": "minecraft:generic.max_health",
+      "value": 6,
+      "operation": "addition"
+    },
+    "update_health": true,
+    "condition": {
+      "type": "origins:command",
+      "command": "execute if score MoonCycle MoonCycle matches 7",
+      "comparison": "==",
+      "compare_to": 1
     }
   }
 }

@@ -1,10 +1,9 @@
 {
   "powers": [
     "reincarnation-origins:werewolf/all_forms/moon_buffs",
-    "reincarnation-origins:werewolf/all_forms/moon_health",
-    "reincarnation-origins:werewolf/brute_wolf/"
+    "reincarnation-origins:werewolf/all_forms/moon_health"
   ],
-  "icon": "minecraft:bone",
+  "icon": "minecraft:stone",
   "impact": 3,
   "name": "Werewolf: Brute Form",
   "description": "You are the king of the night, charging your prey and decimating them with claws and teeth.",

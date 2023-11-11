@@ -1,2 +1,2 @@
 resource set @s reincarnation-origins:werewolf/human/bloodlust_bar 0
-origin set @s origins:origins reincarnation-origins:werewolf-pack
+origin set @s origins:origin reincarnation-origins:werewolf-pack

@@ -1,10 +1,9 @@
 {
   "powers": [
     "reincarnation-origins:werewolf/all_forms/moon_buffs",
-    "reincarnation-origins:werewolf/all_forms/moon_health",
-    "reincarnation-origins:werewolf/lithe_wolf/"
+    "reincarnation-origins:werewolf/all_forms/moon_health"
   ],
-  "icon": "minecraft:bone",
+  "icon": "minecraft:cobblestone",
   "impact": 3,
   "name": "Werewolf: Lithe Form",
   "description": "You are a shadow in the night, stalking your prey in the dark.",
