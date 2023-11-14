@@ -14,7 +14,7 @@
           "type": "origins:target_condition",
           "condition": {
             "type": "origins:nbt",
-            "nbt": "{Tags:[carn.brood]}"
+            "nbt": "{Tags:[carn.wolf_pack]}"
           }
         },
         "bientity_action": {
@@ -42,7 +42,7 @@
       },
       {
         "type": "origins:execute_command",
-        "command": "power remove @s reincarnation-origins:broodmother/aggro"
+        "command": "power remove @s reincarnation-origins:werewolf/aggro"
       }
     ]
   }
