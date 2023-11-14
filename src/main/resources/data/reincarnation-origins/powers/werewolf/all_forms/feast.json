@@ -1,0 +1,19 @@
+{
+  "type": "origins:self_action_on_kill",
+  "cooldown": 20,
+  "entity_action": {
+    "type": "origins:feed",
+    "food": 10,
+    "saturation": 10
+  },
+  "damage_condition": {
+    "type": "origins:attacker",
+    "entity_condition": {
+      "type": "origins:equipped_item",
+      "equipment_slot": "mainhand",
+      "item_condition": {
+        "type": "origins:empty"
+      }
+    }
+  }
+}

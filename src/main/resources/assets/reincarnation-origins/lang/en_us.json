@@ -8,13 +8,15 @@
 	"power.reincarnation-origins.werewolf/all_forms/moon_buffs.description": "Your strength waxes and wanes with the phases of the moon. You are most powerful during a full moon, and least powerful during a new moon.",
 	"power.reincarnation-origins.werewolf/all_forms/night_vision.name": "Night Vision",
 	"power.reincarnation-origins.werewolf/all_forms/night_vision.description": "You have night vision",
+	"power.reincarnation-origins.werewolf/all_forms/feast.name": "Feast!",
+	"power.reincarnation-origins.werewolf/all_forms/feast.description": "You are unable to eat food. Gain sustenance by feasting on enemies killed by your claws.",
 	"power.reincarnation-origins.werewolf/brute/attributes.name": "Naturally Powerful",
 	"power.reincarnation-origins.werewolf/brute/attributes.description": "You are more powerful in this form, you naturally have increased strength and hardiness. You're also larger.",
 	"power.reincarnation-origins.werewolf/brute/bleed.name": "Sharp Claws",
 	"power.reincarnation-origins.werewolf/brute/bleed.description": "You do more damage and cause bleeding with your claws (unarmed attacks).",
 	"power.reincarnation-origins.werewolf/brute/bloodlust.name": "Extreme Bloodlust",
-	"power.reincarnation-origins.werewolf/brute/bloodlust.description": "Killing enemies fuels your rage, keeping you in brute form for longer."
-,	"power.reincarnation-origins.werewolf/brute/berserk.name": "Berserk",
+	"power.reincarnation-origins.werewolf/brute/bloodlust.description": "Killing enemies fuels your rage, keeping you in brute form for longer.",
+	"power.reincarnation-origins.werewolf/brute/berserk.name": "Berserk",
 	"power.reincarnation-origins.werewolf/brute/berserk.description": "Channel your bloodlust into strength and resistance!"
 
 }
