@@ -1,0 +1,118 @@
+{
+  "hidden": "true",
+  "type": "origins:multiple",
+  "bar": {
+    "type": "origins:resource",
+    "min": 0,
+    "max": 4,
+    "hud_render": {
+      "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+      "bar_index": 17
+    }
+  },
+  "moon-tracker": {
+    "type": "origins:action_over_time",
+    "interval": 100,
+    "entity_action": {
+      "type": "origins:if_else_list",
+      "actions": [
+        {
+          "condition": {
+            "type": "origins:command",
+            "command": "execute if score MoonCycle MoonCycle matches 0",
+            "comparison": "==",
+            "compare_to": 1
+          },
+          "action": {
+            "type": "origins:execute_command",
+            "command": "resource set @s reincarnation-origins:werewolf/all_forms/moon_resource_bar 4"
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:command",
+            "command": "execute if score MoonCycle MoonCycle matches 1",
+            "comparison": "==",
+            "compare_to": 1
+          },
+          "action": {
+            "type": "origins:execute_command",
+            "command": "resource set @s reincarnation-origins:werewolf/all_forms/moon_resource_bar 3"
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:command",
+            "command": "execute if score MoonCycle MoonCycle matches 2",
+            "comparison": "==",
+            "compare_to": 1
+          },
+          "action": {
+            "type": "origins:execute_command",
+            "command": "resource set @s reincarnation-origins:werewolf/all_forms/moon_resource_bar 2"
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:command",
+            "command": "execute if score MoonCycle MoonCycle matches 3",
+            "comparison": "==",
+            "compare_to": 1
+          },
+          "action": {
+            "type": "origins:execute_command",
+            "command": "resource set @s reincarnation-origins:werewolf/all_forms/moon_resource_bar 1"
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:command",
+            "command": "execute if score MoonCycle MoonCycle matches 4",
+            "comparison": "==",
+            "compare_to": 1
+          },
+          "action": {
+            "type": "origins:execute_command",
+            "command": "resource set @s reincarnation-origins:werewolf/all_forms/moon_resource_bar 0"
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:command",
+            "command": "execute if score MoonCycle MoonCycle matches 5",
+            "comparison": "==",
+            "compare_to": 1
+          },
+          "action": {
+            "type": "origins:execute_command",
+            "command": "resource set @s reincarnation-origins:werewolf/all_forms/moon_resource_bar 1"
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:command",
+            "command": "execute if score MoonCycle MoonCycle matches 6",
+            "comparison": "==",
+            "compare_to": 1
+          },
+          "action": {
+            "type": "origins:execute_command",
+            "command": "resource set @s reincarnation-origins:werewolf/all_forms/moon_resource_bar 2"
+          }
+        },
+        {
+          "condition": {
+            "type": "origins:command",
+            "command": "execute if score MoonCycle MoonCycle matches 7",
+            "comparison": "==",
+            "compare_to": 1
+          },
+          "action": {
+            "type": "origins:execute_command",
+            "command": "resource set @s reincarnation-origins:werewolf/all_forms/moon_resource_bar 3"
+          }
+        }
+      ]
+    }
+  }
+}
