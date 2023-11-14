@@ -2,9 +2,9 @@
     "type": "origins:multiple",
     "cooldown": {
       "type": "origins:cooldown",
-      "cooldown": 3600,
+      "cooldown": 1800,
       "hud_render": {
-        "should_render": false,
+        "should_render": true,
         "bar_index": 1
       }
     },
