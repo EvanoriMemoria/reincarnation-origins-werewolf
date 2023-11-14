@@ -1,0 +1,50 @@
+{
+  "type": "origins:multiple",
+  "movement_speed": {
+    "type": "origins:attribute",
+    "modifier": {
+      "attribute": "minecraft:generic.movement_speed",
+      "value": -0.035,
+      "operation": "addition"
+    }
+  },
+  "armor_toughness": {
+    "type": "origins:attribute",
+    "modifier": {
+      "attribute": "minecraft:generic.armor_toughness",
+      "value": 12,
+      "operation": "addition"
+    }
+  },
+  "armor": {
+    "type": "origins:attribute",
+    "modifier": {
+      "attribute": "minecraft:generic.armor",
+      "value": 12,
+      "operation": "addition"
+    }
+  },
+  "knockback_resistance": {
+    "type": "origins:attribute",
+    "modifier": {
+      "attribute": "minecraft:generic.knockback_resistance",
+      "value": 1,
+      "operation": "addition"
+    }
+  },
+  "unarmed_attack": {
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": 20,
+      "operation": "addition"
+    },
+    "condition": {
+      "type": "origins:equipped_item",
+      "equipment_slot": "mainhand",
+      "item_condition": {
+        "type": "origins:empty"
+      }
+    }
+  }
+}

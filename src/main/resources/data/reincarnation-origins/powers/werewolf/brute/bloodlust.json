@@ -1,0 +1,11 @@
+{
+  "feed": {
+    "type": "origins:self_action_on_kill",
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "reincarnation-origins:werewolf/brute/timer_cooldown",
+      "change": -10
+    },
+    "cooldown": 1
+  }
+}

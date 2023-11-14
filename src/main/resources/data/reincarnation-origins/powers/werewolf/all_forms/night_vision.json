@@ -5,7 +5,7 @@
     "effects": [
       {
         "effect": "minecraft:night_vision",
-        "duration": 100,
+        "duration": 999999,
         "amplifier": 1,
         "is_ambient": true,
         "show_particles": false,

@@ -199,25 +199,29 @@
     }
   },
   "waxing-crescent-condition": {
-    "type": "origins:apply_effect",
-    "effects": [
-      {
-        "effect": "minecraft:speed",
-        "duration": 101,
-        "amplifier": 0,
-        "is_ambient": true,
-        "show_particles": false,
-        "show_icon": true
-      },
-      {
-        "effect": "minecraft:weakness",
-        "duration": 101,
-        "amplifier": 0,
-        "is_ambient": true,
-        "show_particles": false,
-        "show_icon": true
-      }
-    ],
+    "type": "origins:action_over_time",
+    "interval": 100,
+    "entity_action": {
+      "type": "origins:apply_effect",
+      "effects": [
+        {
+          "effect": "minecraft:speed",
+          "duration": 101,
+          "amplifier": 0,
+          "is_ambient": true,
+          "show_particles": false,
+          "show_icon": true
+        },
+        {
+          "effect": "minecraft:weakness",
+          "duration": 101,
+          "amplifier": 0,
+          "is_ambient": true,
+          "show_particles": false,
+          "show_icon": true
+        }
+      ]
+    },
     "condition": {
       "type": "origins:command",
       "command": "execute if score MoonCycle MoonCycle matches 5",
