@@ -46,45 +46,26 @@
     }
   },
   "full-moon-condition": {
-    "type": "origins:action_over_time",
-    "interval": 100,
-    "entity_action": {
-      "type": "origins:apply_effect",
-      "effects": [
-        {
-          "effect": "minecraft:speed",
-          "duration": 101,
-          "amplifier": 1,
-          "is_ambient": true,
-          "show_particles": false,
-          "show_icon": true
-        },
-        {
-          "effect": "minecraft:haste",
-          "duration": 101,
-          "amplifier": 1,
-          "is_ambient": true,
-          "show_particles": false,
-          "show_icon": true
-        },
-        {
-          "effect": "minecraft:strength",
-          "duration": 101,
-          "amplifier": 0,
-          "is_ambient": true,
-          "show_particles": false,
-          "show_icon": true
-        },
-        {
-          "effect": "minecraft:regeneration",
-          "duration": 101,
-          "amplifier": 0,
-          "is_ambient": true,
-          "show_particles": false,
-          "show_icon": true
-        }
-      ]
-    },
+    "type": "origins:conditioned_attribute",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.movement_speed",
+        "operation": "addition",
+        "value": 0.05
+      },
+      {
+        "attribute": "minecraft:generic.attack_speed",
+        "operation": "addition",
+        "value": 1
+      },
+      {
+        "attribute": "minecraft:generic.max_health",
+        "value": 10,
+        "operation": "addition"
+      }
+    ],
+    "update_health": true,
+    "tick_rate": 1000,
     "condition": {
       "type": "origins:command",
       "command": "execute if score MoonCycle MoonCycle matches 0",
@@ -93,29 +74,26 @@
     }
   },
   "waning-gibbous-condition": {
-    "type": "origins:action_over_time",
-    "interval": 100,
-    "entity_action": {
-      "type": "origins:apply_effect",
-      "effects": [
-        {
-          "effect": "minecraft:speed",
-          "duration": 101,
-          "amplifier": 1,
-          "is_ambient": true,
-          "show_particles": false,
-          "show_icon": true
-        },
-        {
-          "effect": "minecraft:haste",
-          "duration": 101,
-          "amplifier": 0,
-          "is_ambient": true,
-          "show_particles": false,
-          "show_icon": true
-        }
-      ]
-    },
+    "type": "origins:conditioned_attribute",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.movement_speed",
+        "operation": "addition",
+        "value": 0.04
+      },
+      {
+        "attribute": "minecraft:generic.attack_speed",
+        "operation": "addition",
+        "value": 0.75
+      },
+      {
+        "attribute": "minecraft:generic.max_health",
+        "value": 6,
+        "operation": "addition"
+      }
+    ],
+    "update_health": true,
+    "tick_rate": 1000,
     "condition": {
       "type": "origins:command",
       "command": "execute if score MoonCycle MoonCycle matches 1",
@@ -124,52 +102,54 @@
     }
   },
   "last-quarter-condition": {
-    "type": "origins:action_over_time",
-    "interval": 100,
-    "entity_action": {
-      "type": "origins:apply_effect",
-      "effects": [
-        {
-          "effect": "minecraft:speed",
-          "duration": 101,
-          "amplifier": 0,
-          "is_ambient": true,
-          "show_particles": false,
-          "show_icon": true
-        }
-      ],
-      "condition": {
-        "type": "origins:command",
-        "command": "execute if score MoonCycle MoonCycle matches 2",
-        "comparison": "==",
-        "compare_to": 1
+    "type": "origins:conditioned_attribute",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.movement_speed",
+        "operation": "addition",
+        "value": 0.03
+      },
+      {
+        "attribute": "minecraft:generic.attack_speed",
+        "operation": "addition",
+        "value": 0.5
+      },
+      {
+        "attribute": "minecraft:generic.max_health",
+        "value": 4,
+        "operation": "addition"
       }
+    ],
+    "update_health": true,
+    "tick_rate": 1000,
+    "condition": {
+      "type": "origins:command",
+      "command": "execute if score MoonCycle MoonCycle matches 2",
+      "comparison": "==",
+      "compare_to": 1
     }
   },
   "waning-crescent-condition": {
-    "type": "origins:action_over_time",
-    "interval": 100,
-    "entity_action": {
-      "type": "origins:apply_effect",
-      "effects": [
-        {
-          "effect": "minecraft:speed",
-          "duration": 101,
-          "amplifier": 0,
-          "is_ambient": true,
-          "show_particles": false,
-          "show_icon": true
-        },
-        {
-          "effect": "minecraft:weakness",
-          "duration": 101,
-          "amplifier": 0,
-          "is_ambient": true,
-          "show_particles": false,
-          "show_icon": true
-        }
-      ]
-    },
+    "type": "origins:conditioned_attribute",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.movement_speed",
+        "operation": "addition",
+        "value": 0.02
+      },
+      {
+        "attribute": "minecraft:generic.attack_speed",
+        "operation": "addition",
+        "value": 0.25
+      },
+      {
+        "attribute": "minecraft:generic.max_health",
+        "value": 2,
+        "operation": "addition"
+      }
+    ],
+    "update_health": true,
+    "tick_rate": 1000,
     "condition": {
       "type": "origins:command",
       "command": "execute if score MoonCycle MoonCycle matches 3",
@@ -178,19 +158,26 @@
     }
   },
   "new-moon-condition": {
-    "type": "origins:action_over_time",
-    "interval": 100,
-    "entity_action": {
-      "type": "origins:apply_effect",
-      "effect": {
-        "effect": "minecraft:weakness",
-        "duration": 101,
-        "amplifier": 0,
-        "is_ambient": true,
-        "show_particles": false,
-        "show_icon": true
+    "type": "origins:conditioned_attribute",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.movement_speed",
+        "operation": "addition",
+        "value": -0.01
+      },
+      {
+        "attribute": "minecraft:generic.attack_speed",
+        "operation": "addition",
+        "value": -0.1
+      },
+      {
+        "attribute": "minecraft:generic.max_health",
+        "value": -4,
+        "operation": "addition"
       }
-    },
+    ],
+    "update_health": true,
+    "tick_rate": 1000,
     "condition": {
       "type": "origins:command",
       "command": "execute if score MoonCycle MoonCycle matches 4",
@@ -199,29 +186,26 @@
     }
   },
   "waxing-crescent-condition": {
-    "type": "origins:action_over_time",
-    "interval": 100,
-    "entity_action": {
-      "type": "origins:apply_effect",
-      "effects": [
-        {
-          "effect": "minecraft:speed",
-          "duration": 101,
-          "amplifier": 0,
-          "is_ambient": true,
-          "show_particles": false,
-          "show_icon": true
-        },
-        {
-          "effect": "minecraft:weakness",
-          "duration": 101,
-          "amplifier": 0,
-          "is_ambient": true,
-          "show_particles": false,
-          "show_icon": true
-        }
-      ]
-    },
+    "type": "origins:conditioned_attribute",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.movement_speed",
+        "operation": "addition",
+        "value": 0.02
+      },
+      {
+        "attribute": "minecraft:generic.attack_speed",
+        "operation": "addition",
+        "value": 0.25
+      },
+      {
+        "attribute": "minecraft:generic.max_health",
+        "value": 2,
+        "operation": "addition"
+      }
+    ],
+    "update_health": true,
+    "tick_rate": 1000,
     "condition": {
       "type": "origins:command",
       "command": "execute if score MoonCycle MoonCycle matches 5",
@@ -230,52 +214,54 @@
     }
   },
   "first-quarter-condition": {
-    "type": "origins:action_over_time",
-    "interval": 100,
-    "entity_action": {
-      "type": "origins:apply_effect",
-      "effects": [
-        {
-          "effect": "minecraft:speed",
-          "duration": 101,
-          "amplifier": 0,
-          "is_ambient": true,
-          "show_particles": false,
-          "show_icon": true
-        }
-      ],
-      "condition": {
-        "type": "origins:command",
-        "command": "execute if score MoonCycle MoonCycle matches 6",
-        "comparison": "==",
-        "compare_to": 1
+    "type": "origins:conditioned_attribute",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.movement_speed",
+        "operation": "addition",
+        "value": 0.03
+      },
+      {
+        "attribute": "minecraft:generic.attack_speed",
+        "operation": "addition",
+        "value": 0.5
+      },
+      {
+        "attribute": "minecraft:generic.max_health",
+        "value": 4,
+        "operation": "addition"
       }
+    ],
+    "update_health": true,
+    "tick_rate": 1000,
+    "condition": {
+      "type": "origins:command",
+      "command": "execute if score MoonCycle MoonCycle matches 6",
+      "comparison": "==",
+      "compare_to": 1
     }
   },
   "waxing-gibbous-condition": {
-    "type": "origins:action_over_time",
-    "interval": 100,
-    "entity_action": {
-      "type": "origins:apply_effect",
-      "effects": [
-        {
-          "effect": "minecraft:speed",
-          "duration": 101,
-          "amplifier": 1,
-          "is_ambient": true,
-          "show_particles": false,
-          "show_icon": true
-        },
-        {
-          "effect": "minecraft:haste",
-          "duration": 101,
-          "amplifier": 0,
-          "is_ambient": true,
-          "show_particles": false,
-          "show_icon": true
-        }
-      ]
-    },
+    "type": "origins:conditioned_attribute",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.movement_speed",
+        "operation": "addition",
+        "value": 0.04
+      },
+      {
+        "attribute": "minecraft:generic.attack_speed",
+        "operation": "addition",
+        "value": 0.75
+      },
+      {
+        "attribute": "minecraft:generic.max_health",
+        "value": 6,
+        "operation": "addition"
+      }
+    ],
+    "update_health": true,
+    "tick_rate": 1000,
     "condition": {
       "type": "origins:command",
       "command": "execute if score MoonCycle MoonCycle matches 7",

@@ -1,5 +1,4 @@
 {
-  "feed": {
     "type": "origins:self_action_on_kill",
     "entity_action": {
       "type": "origins:change_resource",
@@ -7,5 +6,4 @@
       "change": 100
     },
     "cooldown": 20
-  }
 }

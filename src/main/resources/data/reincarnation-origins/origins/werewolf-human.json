@@ -1,7 +1,7 @@
 {
   "powers": [
     "reincarnation-origins:werewolf/all_forms/moon_buffs",
-    "reincarnation-origins:werewolf/all_forms/moon_health",
+    "reincarnation-origins:werewolf/all_forms/moon_resource",
     "reincarnation-origins:werewolf/human/bloodlust",
     "reincarnation-origins:werewolf/human/transformation"
   ],

@@ -1,0 +1,59 @@
+{
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:apply_effect",
+        "effects": [
+          {
+            "effect": "minecraft:resistance",
+            "duration": 300,
+            "amplifier": 3,
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": true
+          },
+          {
+            "effect": "minecraft:strength",
+            "duration": 300,
+            "amplifier": 1,
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": true
+          },
+          {
+            "effect": "minecraft:speed",
+            "duration": 300,
+            "amplifier": 0,
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": true
+          }
+        ]
+      },
+      {
+        "type": "origins:change_resource",
+        "resource": "reincarnation-origins:werewolf/brute/bloodlust_resource_bar",
+        "change": -300
+      },
+      {
+        "type": "origins:model_color",
+        "green": 0.75,
+        "blue": 0.75
+      },
+      {
+        "type": "origins:particle",
+        "particle": "minecraft:basic_flame_particle",
+        "frequency": 4,
+        "visible_in_first_person": true
+      }
+    ]
+  },
+  "cooldown": 300,
+  "hud_render": {
+    "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+    "bar_index": 0
+  },
+  "key": "key.loadToolbarActivator"
+}

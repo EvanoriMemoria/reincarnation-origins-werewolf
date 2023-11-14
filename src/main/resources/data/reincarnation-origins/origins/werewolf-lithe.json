@@ -1,9 +1,9 @@
 {
   "powers": [
     "reincarnation-origins:werewolf/all_forms/moon_buffs",
-    "reincarnation-origins:werewolf/all_forms/moon_health",
+    "reincarnation-origins:werewolf/all_forms/respawn_human",
     "reincarnation-origins:werewolf/all_forms/night_vision",
-    "reincarnation-origins:werewolf/lithe/callbacks",
+    "reincarnation-origins:werewolf/all_forms/moon_resource",
     "reincarnation-origins:werewolf/lithe/timer",
     "reincarnation-origins:werewolf/lithe/attributes",
     "reincarnation-origins:werewolf/lithe/invisibility"
