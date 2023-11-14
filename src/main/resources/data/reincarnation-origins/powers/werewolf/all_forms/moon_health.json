@@ -1,4 +1,5 @@
 {
+  "hidden": true,
   "type": "origins:multiple",
   "scoreboard": {
     "type": "origins:action_on_callback",

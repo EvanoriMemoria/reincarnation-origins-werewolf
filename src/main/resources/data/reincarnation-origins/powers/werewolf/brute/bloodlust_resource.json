@@ -1,0 +1,28 @@
+{
+  "hidden": true,
+  "type": "origins:multiple",
+  "bar": {
+    "type": "origins:resource",
+    "min": 0,
+    "max": 1800,
+    "start_value": 600,
+    "min_action": {
+      "type": "origins:execute_command",
+      "command": "function reincarnation-origins:werewolf/human-transformation"
+    },
+    "hud_render": {
+      "should_render": true,
+      "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+      "bar_index": 5
+    }
+  },
+  "tick_down": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "reincarnation-origins:werewolf/brute/bloodlust_resource_bar",
+      "change": -20
+    },
+    "interval": 20
+  }
+}

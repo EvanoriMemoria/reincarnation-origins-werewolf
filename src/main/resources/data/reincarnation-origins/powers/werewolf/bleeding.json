@@ -1,0 +1,46 @@
+{
+  "type": "origins:multiple",
+  "dot": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:damage",
+      "amount": 2,
+      "source": {
+        "name": "hurt_by_bleeding",
+        "unblockable": true,
+        "bypasses_armor": true
+      },
+      "damage_type": "reincarnation-origins:hurt_by_bleeding"
+    },
+    "interval": 20
+  },
+  "timer": {
+    "type": "origins:cooldown",
+    "cooldown": 200,
+    "hud_render": {
+      "should_render": true,
+      "bar_index": 1
+    }
+  },
+  "trigger": {
+    "type": "origins:action_on_callback",
+    "entity_action_gained": {
+      "type": "origins:trigger_cooldown",
+      "power": "reincarnation-origins:werewolf/bleeding_timer"
+    }
+  },
+  "timer_check": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:execute_command",
+      "command": "origin power revoke @s reincarnation-origins:werewolf/bleeding"
+    },
+    "interval": 100,
+    "condition": {
+      "type": "origins:resource",
+      "resource": "reincarnation-origins:werewolf/lithe/timer_cooldown",
+      "comparison": "==",
+      "compare_to": 0
+    }
+  }
+}

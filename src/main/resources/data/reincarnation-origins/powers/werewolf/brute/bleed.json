@@ -1,0 +1,15 @@
+{
+  "type": "origins:target_action_on_hit",
+  "entity_action": {
+    "type": "origins:execute_command",
+    "command": "origin power grant @s reincarnation-origins:werewolf/bleeding"
+  },
+  "condition": {
+    "type": "origins:equipped_item",
+    "equipment_slot": "mainhand",
+    "item_condition": {
+      "type": "origins:empty"
+    }
+  },
+  "cooldown": 40
+}

@@ -3,9 +3,9 @@
     "type": "origins:self_action_on_kill",
     "entity_action": {
       "type": "origins:change_resource",
-      "resource": "reincarnation-origins:werewolf/brute/timer_cooldown",
-      "change": -10
+      "resource": "reincarnation-origins:werewolf/brute/bloodlust_resource_bar",
+      "change": 100
     },
-    "cooldown": 1
+    "cooldown": 20
   }
 }

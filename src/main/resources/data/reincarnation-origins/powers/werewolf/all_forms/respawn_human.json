@@ -1,5 +1,5 @@
 {
-  "hidden": "true",
+  "hidden": true,
   "type": "origins:multiple",
   "callbacks": {
     "type": "origins:action_on_callback",
