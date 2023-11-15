@@ -3,7 +3,7 @@
     "entity_action": {
       "type": "origins:change_resource",
       "resource": "reincarnation-origins:werewolf/brute/bloodlust_resource_bar",
-      "change": 100
+      "change": 200
     },
     "cooldown": 20
 }
