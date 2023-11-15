@@ -6,11 +6,11 @@
       "type": "origins:damage",
       "amount": 2,
       "source": {
-        "name": "hurt_by_bleeding",
-        "unblockable": true,
-        "bypasses_armor": true
+        "name": "minecraft:on_fire",
+        "bypasses_armor": true,
+        "unblockable": true
       },
-      "damage_type": "reincarnation-origins:hurt_by_bleeding"
+      "damage_type": "minecraft:on_fire"
     },
     "interval": 20
   },
@@ -33,14 +33,19 @@
     "type": "origins:action_over_time",
     "entity_action": {
       "type": "origins:execute_command",
-      "command": "origin power revoke @s reincarnation-origins:werewolf/bleeding"
+      "command": "power revoke @s reincarnation-origins:werewolf/bleeding"
     },
     "interval": 100,
     "condition": {
       "type": "origins:resource",
-      "resource": "reincarnation-origins:werewolf/lithe/timer_cooldown",
+      "resource": "reincarnation-origins:werewolf/bleeding_timer",
       "comparison": "==",
       "compare_to": 0
     }
+  },
+  "particles": {
+    "type": "origins:particle",
+    "particle": "minecraft:dust",
+    "frequency": 6
   }
 }

@@ -3,7 +3,10 @@
     "reincarnation-origins:werewolf/all_forms/moon_buffs",
     "reincarnation-origins:werewolf/all_forms/respawn_human",
     "reincarnation-origins:werewolf/all_forms/night_vision",
-    "reincarnation-origins:werewolf/all_forms/moon_resource"
+    "reincarnation-origins:werewolf/all_forms/moon_resource",
+    "reincarnation-origins:werewolf/pack/attributes",
+    "reincarnation-origins:werewolf/pack/summon_the_pack",
+    "reincarnation-origins:werewolf/pack/transformation"
   ],
   "icon": "minecraft:obsidian",
   "impact": 3,

@@ -38,15 +38,10 @@
         "change": -300
       },
       {
-        "type": "origins:model_color",
-        "green": 0.75,
-        "blue": 0.75
-      },
-      {
-        "type": "origins:particle",
-        "particle": "minecraft:basic_flame_particle",
-        "frequency": 4,
-        "visible_in_first_person": true
+        "type": "origins:add_velocity",
+        "z": 2,
+        "space": "local",
+        "set": true
       }
     ]
   },

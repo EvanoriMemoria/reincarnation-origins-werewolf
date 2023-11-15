@@ -40,14 +40,11 @@
           "duration": 100,
           "amplifier": 1,
           "is_ambient": true,
-          "show_particles": false,
+          "show_particles": true,
           "show_icon": true
         }
       ]
     },
-    "cooldown": 1,
-    "hud_render": {
-      "should_render": false
-    }
+    "cooldown": 1
   }
 }

@@ -24,7 +24,7 @@
               "type": "origins:damage",
               "amount": 0,
               "source": {
-                "name": "cramming.player",
+                "name": "dryout.player",
                 "bypasses_armor": true,
                 "out_of_world": true
               },

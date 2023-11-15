@@ -3,9 +3,9 @@
     "cooldown": {
       "type": "origins:cooldown",
       "cooldown": 1800,
-      "hud_render": {
-        "should_render": true,
-        "bar_index": 1
+      "hud_render":{
+        "sprite_location":"origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+        "bar_index": 2
       }
     },
     "trigger": {
@@ -19,7 +19,7 @@
       "type": "origins:action_over_time",
       "entity_action": {
         "type": "origins:execute_command",
-        "command": "origin set @s origins:origin reincarnation-origins:werewolf-human"
+        "command": "function reincarnation-origins:werewolf/human-transformation"
       },
       "interval": 100,
       "condition": {

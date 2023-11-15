@@ -20,7 +20,7 @@
     "type": "origins:conditioned_attribute",
     "modifier": {
       "attribute": "minecraft:generic.attack_damage",
-      "value": 10,
+      "value": 6,
       "operation": "addition"
     },
     "condition": {
