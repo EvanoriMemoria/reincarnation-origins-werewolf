@@ -1,0 +1,58 @@
+{
+  "hidden": true,
+  "type": "origins:multiple",
+  "no_dmg": {
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+      "type": "origins:name",
+      "name": "cramming.player"
+    },
+    "modifier": {
+      "operation": "set_total",
+      "value": 0
+    }
+  },
+  "fall": {
+    "type": "origins:invulnerability",
+    "damage_condition": {
+      "type": "origins:from_falling"
+    }
+  },
+  "suffocate_immune": {
+    "type": "origins:invulnerability",
+    "damage_condition": {
+      "type": "origins:name",
+      "name": "inWall"
+    }
+  },
+  "onhit": {
+    "condition": {
+      "inverted": true,
+      "type": "origins:nbt",
+      "nbt": "{Tags:[carn.wolf_pack]}"
+    },
+    "type": "origins:self_action_on_hit",
+    "entity_action": {
+      "type": "origins:apply_effect",
+      "effects": [
+        {
+          "effect": "minecraft:regeneration",
+          "duration": 100,
+          "amplifier": 1,
+          "is_ambient": true,
+          "show_particles": true,
+          "show_icon": true
+        }
+      ]
+    },
+    "cooldown": 1
+  },
+  "onkill": {
+    "type": "origins:action_on_kill",
+    "entity_action": {
+      "type": "origins:execute_command",
+      "command": "resource change @p reincarnation-origins:werewolf/human/bloodlust_bar 1"
+    },
+    "cooldown": 1
+  }
+}
