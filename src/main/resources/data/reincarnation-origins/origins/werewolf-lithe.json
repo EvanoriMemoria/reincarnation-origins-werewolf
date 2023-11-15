@@ -6,13 +6,17 @@
     "reincarnation-origins:werewolf/all_forms/moon_resource",
     "reincarnation-origins:werewolf/all_forms/feast",
     "reincarnation-origins:werewolf/all_forms/no_food",
+    "reincarnation-origins:werewolf/all_forms/keen_senses",
+    "reincarnation-origins:werewolf/all_forms/no_passive_regen",
     "reincarnation-origins:werewolf/lithe/timer",
     "reincarnation-origins:werewolf/lithe/attributes",
-    "reincarnation-origins:werewolf/lithe/invisibility"
+    "reincarnation-origins:werewolf/lithe/invisibility",
+    "reincarnation-origins:werewolf/lithe/bleed",
+    "reincarnation-origins:werewolf/lithe/leap"
   ],
   "icon": "minecraft:cobblestone",
   "impact": 3,
   "name": "Werewolf: Lithe Form",
-  "description": "You are a shadow in the night, stalking your prey in the dark.",
+  "description": "You are a shadow in the night, stalking your prey through the dark.",
   "unchoosable":true
 }
