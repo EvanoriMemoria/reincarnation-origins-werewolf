@@ -35,7 +35,7 @@
       {
         "type": "origins:change_resource",
         "resource": "reincarnation-origins:werewolf/brute/bloodlust_resource_bar",
-        "change": -300
+        "change": -200
       },
       {
         "type": "origins:add_velocity",
