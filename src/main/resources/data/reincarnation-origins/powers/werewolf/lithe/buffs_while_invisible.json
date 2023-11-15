@@ -1,0 +1,29 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:apply_effect",
+        "effects": [
+          {
+            "effect": "minecraft:speed",
+            "duration": 21,
+            "amplifier": 1,
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": true
+          },
+          {
+            "effect": "minecraft:haste",
+            "duration": 21,
+            "amplifier": 1,
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": true
+          }
+        ]
+    },
+    "interval": 20,
+    "condition": {
+    "type": "origins:status_effect",
+      "effect": "minecraft:invisibility"
+    }
+  }
