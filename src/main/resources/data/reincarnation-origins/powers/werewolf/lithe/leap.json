@@ -40,7 +40,7 @@
     "cooldown": 20,
     "entity_action": {
       "type": "origins:execute_command",
-      "command": "resource set @s reincarnation-origins:werewolf/lithe/leap_cooldown 0"
+      "command": "resource set @s reincarnation-origins:werewolf/lithe/leap_active_cooldown 0"
     },
     "damage_condition": {
       "type": "origins:attacker",

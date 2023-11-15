@@ -48,7 +48,7 @@
     "cooldown": 1
   },
   "onkill": {
-    "type": "origins:action_on_kill",
+    "type": "origins:self_action_on_kill",
     "entity_action": {
       "type": "origins:execute_command",
       "command": "resource change @p reincarnation-origins:werewolf/human/bloodlust_bar 1"

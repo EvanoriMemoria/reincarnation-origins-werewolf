@@ -16,7 +16,7 @@
   },
   "timer": {
     "type": "origins:cooldown",
-    "cooldown": 200,
+    "cooldown": 100,
     "hud_render": {
       "should_render": true,
       "bar_index": 1
@@ -35,7 +35,7 @@
       "type": "origins:execute_command",
       "command": "power revoke @s reincarnation-origins:werewolf/bleeding"
     },
-    "interval": 100,
+    "interval": 20,
     "condition": {
       "type": "origins:resource",
       "resource": "reincarnation-origins:werewolf/bleeding_timer",
@@ -46,6 +46,6 @@
   "particles": {
     "type": "origins:particle",
     "particle": "minecraft:falling_lava",
-    "frequency": 10
+    "frequency": 12
   }
 }
