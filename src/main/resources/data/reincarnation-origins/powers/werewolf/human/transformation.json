@@ -18,25 +18,13 @@
       {
         "action": {
           "type": "origins:execute_command",
-          "command": "function reincarnation-origins:werewolf/pack-transformation"
-        },
-        "condition": {
-          "type": "origins:resource",
-          "resource": "reincarnation-origins:werewolf/human/bloodlust_bar",
-          "comparison": ">=",
-          "compare_to": 6
-        }
-      },
-      {
-        "action": {
-          "type": "origins:execute_command",
           "command": "function reincarnation-origins:werewolf/lithe-transformation"
         },
         "condition": {
           "type": "origins:resource",
           "resource": "reincarnation-origins:werewolf/human/bloodlust_bar",
           "comparison": ">=",
-          "compare_to": 3
+          "compare_to": 4
         }
       }
     ]

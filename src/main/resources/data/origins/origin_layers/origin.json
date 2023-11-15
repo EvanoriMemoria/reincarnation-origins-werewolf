@@ -3,7 +3,6 @@
     "origins": [
         "reincarnation-origins:werewolf-human",
         "reincarnation-origins:werewolf-lithe",
-        "reincarnation-origins:werewolf-pack",
         "reincarnation-origins:werewolf-brute"
     ]
 }
