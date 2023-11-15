@@ -1,0 +1,51 @@
+{
+  "type": "origins:multiple",
+  "dot": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:damage",
+      "amount": 4,
+      "source": {
+        "name": "minecraft:on_fire",
+        "bypasses_armor": true,
+        "unblockable": true
+      },
+      "damage_type": "minecraft:on_fire"
+    },
+    "interval": 20
+  },
+  "timer": {
+    "type": "origins:cooldown",
+    "cooldown": 200,
+    "hud_render": {
+      "should_render": true,
+      "bar_index": 1
+    }
+  },
+  "trigger": {
+    "type": "origins:action_on_callback",
+    "entity_action_gained": {
+      "type": "origins:trigger_cooldown",
+      "power": "reincarnation-origins:werewolf/bleeding_timer"
+    }
+  },
+  "timer_check": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:execute_command",
+      "command": "power revoke @s reincarnation-origins:werewolf/bleeding"
+    },
+    "interval": 100,
+    "condition": {
+      "type": "origins:resource",
+      "resource": "reincarnation-origins:werewolf/bleeding_timer",
+      "comparison": "==",
+      "compare_to": 0
+    }
+  },
+  "particles": {
+    "type": "origins:particle",
+    "particle": "minecraft:falling_lava",
+    "frequency": 10
+  }
+}
