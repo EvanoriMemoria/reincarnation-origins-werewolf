@@ -26,19 +26,19 @@
     "type": "origins:action_on_callback",
     "entity_action_gained": {
       "type": "origins:trigger_cooldown",
-      "power": "reincarnation-origins:werewolf/bleeding_timer"
+      "power": "reincarnation-origins:werewolf/severe_bleeding_timer"
     }
   },
   "timer_check": {
     "type": "origins:action_over_time",
     "entity_action": {
       "type": "origins:execute_command",
-      "command": "power revoke @s reincarnation-origins:werewolf/bleeding"
+      "command": "power revoke @s reincarnation-origins:werewolf/severe_bleeding"
     },
     "interval": 20,
     "condition": {
       "type": "origins:resource",
-      "resource": "reincarnation-origins:werewolf/bleeding_timer",
+      "resource": "reincarnation-origins:werewolf/severe_bleeding_timer",
       "comparison": "==",
       "compare_to": 0
     }
