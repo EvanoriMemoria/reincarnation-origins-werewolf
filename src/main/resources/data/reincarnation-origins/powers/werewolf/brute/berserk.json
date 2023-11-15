@@ -39,7 +39,7 @@
       },
       {
         "type": "origins:add_velocity",
-        "z": 2,
+        "z": 1,
         "space": "local",
         "set": true
       }
@@ -50,5 +50,5 @@
     "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
     "bar_index": 0
   },
-  "key": "key.loadToolbarActivator"
+  "key": "key.origins.primary_active"
 }
