@@ -45,7 +45,7 @@
   },
   "particles": {
     "type": "origins:particle",
-    "particle": "minecraft:dust",
+    "particle": "minecraft:falling_lava",
     "frequency": 6
   }
 }
