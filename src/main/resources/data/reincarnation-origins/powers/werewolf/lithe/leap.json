@@ -24,11 +24,11 @@
         },
         {
           "type": "origins:execute_command",
-          "command": "playsound minecraft:entity.wolf.growl player @s ~ ~ ~ 1 0.50"
+          "command": "execute at @s run playsound minecraft:entity.wolf.growl player @s ~ ~ ~ 1 0.50"
         },
         {
           "type": "origins:execute_command",
-          "command": "playsound minecraft:entity.ravager.attack player @s ~ ~ ~ 1 0.50"
+          "command": "execute at @s run playsound minecraft:entity.ravager.attack player @s ~ ~ ~ 1 0.50"
         }
       ]
     },
