@@ -4,11 +4,6 @@
     "type": "origins:attribute",
     "modifiers": [
       {
-        "attribute": "minecraft:generic.movement_speed",
-        "value": -0.025,
-        "operation": "addition"
-      },
-      {
         "attribute": "minecraft:generic.armor_toughness",
         "value": 6,
         "operation": "addition"
