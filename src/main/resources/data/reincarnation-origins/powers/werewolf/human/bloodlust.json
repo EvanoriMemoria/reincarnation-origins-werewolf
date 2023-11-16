@@ -24,6 +24,10 @@
     "entity_action_respawned": {
       "type": "origins:execute_command",
       "command": "resource set @s reincarnation-origins:werewolf/human/bloodlust_bar 0"
+    },
+    "entity_action_gained": {
+      "type": "origins:execute_command",
+      "command": "effect clear @s minecraft:night_vision"
     }
   }
 }
