@@ -1,0 +1,12 @@
+{
+    "type": "origins:overlay",
+    "texture": "minecraft:textures/block/warped_nylium.png",
+    "strength": 0.5,
+    "red": 1.0,
+    "green": 0.5,
+    "blue": 0.5,
+    "draw_mode": "texture",
+    "draw_phase": "below_hud",
+    "hide_with_hud": false,
+    "visible_in_third_person": false
+  }
