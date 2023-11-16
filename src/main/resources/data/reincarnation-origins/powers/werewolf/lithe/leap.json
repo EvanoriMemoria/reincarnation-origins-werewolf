@@ -24,7 +24,11 @@
         },
         {
           "type": "origins:execute_command",
-          "command": "playsound minecraft:entity.wolf.growl player @s ~ ~ ~ 1 0.75"
+          "command": "playsound minecraft:entity.wolf.growl player @s ~ ~ ~ 1 0.50"
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "playsound minecraft:entity.ravager.attack player @s ~ ~ ~ 1 0.50"
         }
       ]
     },
@@ -40,7 +44,7 @@
     "cooldown": 20,
     "entity_action": {
       "type": "origins:execute_command",
-      "command": "resource set @s reincarnation-origins:werewolf/lithe/leap_active_cooldown 0"
+      "command": "resource set @s reincarnation-origins:werewolf/lithe/leap_active 600"
     },
     "damage_condition": {
       "type": "origins:attacker",
