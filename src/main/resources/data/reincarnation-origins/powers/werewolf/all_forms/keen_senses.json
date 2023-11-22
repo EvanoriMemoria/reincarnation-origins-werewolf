@@ -31,8 +31,18 @@
     ]
   },
   "bientity_condition": {
-    "type": "origins:distance",
-    "comparison": "<=",
-    "compare_to": 12
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:distance",
+        "comparison": "<=",
+        "compare_to": 16
+      },
+      {
+        "type": "origins:nbt",
+        "nbt": "{Tags:['carn.wolf_pack']}",
+        "inverted": true
+      }
+    ]
   }
 }
