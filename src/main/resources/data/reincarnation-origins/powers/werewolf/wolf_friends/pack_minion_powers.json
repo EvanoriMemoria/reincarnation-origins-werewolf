@@ -1,0 +1,52 @@
+{
+  "hidden": true,
+  "type": "origins:multiple",
+  "no_aggro_damage": {
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+      "type": "origins:name",
+      "name": "cramming.player"
+    },
+    "modifier": {
+      "operation": "set_total",
+      "value": 0
+    }
+  },
+  "less_damage_taken_from_players": {
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+      "type": "origins:attacker",
+      "entity_condition": {
+        "type": "origins:entity_type",
+        "entity_type": "minecraft:player"
+      }
+    },
+    "modifier": {
+      "operation": "set_total",
+      "value": 1
+    }
+  },
+  "less_friendly_fire": {
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+      "type": "origins:attacker",
+      "entity_condition": {
+        "type": "origins:nbt",
+        "nbt": "{Tags:['carn.wolf_pack']}"
+      }
+    }
+  },
+  "no_fall_damage": {
+    "type": "origins:invulnerability",
+    "damage_condition": {
+      "type": "origins:from_falling"
+    }
+  },
+  "no_suffocate_damage": {
+    "type": "origins:invulnerability",
+    "damage_condition": {
+      "type": "origins:name",
+      "name": "inWall"
+    }
+  }
+}

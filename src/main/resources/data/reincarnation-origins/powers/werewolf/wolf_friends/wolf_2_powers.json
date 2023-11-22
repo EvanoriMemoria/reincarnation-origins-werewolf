@@ -8,5 +8,13 @@
       "command": "function reincarnation-origins:werewolf/wolf_2_effects"
     },
     "cooldown": 1
+  },
+  "onkill": {
+    "type": "origins:self_action_on_kill",
+    "entity_action": {
+      "type": "origins:execute_command",
+      "command": "resource change @p reincarnation-origins:werewolf/human/bloodlust_bar 1"
+    },
+    "cooldown": 1
   }
 }

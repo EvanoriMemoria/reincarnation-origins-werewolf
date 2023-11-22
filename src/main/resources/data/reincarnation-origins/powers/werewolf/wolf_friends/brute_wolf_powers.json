@@ -1,0 +1,25 @@
+{
+  "hidden": true,
+  "type": "origins:multiple",
+  "onhit": {
+    "type": "origins:self_action_on_hit",
+    "entity_action": {
+      "type": "origins:execute_command",
+      "command": "function reincarnation-origins:werewolf/brute_wolf_effects"
+    },
+    "cooldown": 1
+  },
+  "red_color": {
+    "type": "origins:model_color",
+    "blue": 0.5,
+    "green": 0.5
+  },
+  "onkill": {
+    "type": "origins:self_action_on_kill",
+    "entity_action": {
+      "type": "origins:execute_command",
+      "command": "resource change @p reincarnation-origins:werewolf/brute/bloodlust_bar 200"
+    },
+    "cooldown": 1
+  }
+}
