@@ -30,17 +30,20 @@
     }
   },
   "onhit": {
-    "condition": {
-      "inverted": true,
-      "type": "origins:nbt",
-      "nbt": "{Tags:[carn.wolf_pack]}"
-    },
     "type": "origins:action_on_hit",
     "bientity_action": {
       "type": "origins:target_action",
       "action": {
         "type": "origins:execute_command",
         "command": "power grant @s reincarnation-origins:werewolf/aggro"
+      }
+    },
+    "bientity_condition": {
+      "type": "origins:target_condition",
+      "condition": {
+        "inverted": true,
+        "type": "origins:nbt",
+        "nbt": "{Tags:['carn.wolf_pack']}"
       }
     },
     "cooldown": 1,
@@ -57,34 +60,6 @@
     "cooldown": 1,
     "hud_render": {
       "should_render": false
-    }
-  },
-  "callback": {
-    "type": "origins:action_on_callback",
-    "entity_action_chosen": {
-      "type": "origins:nothing"
-    },
-    "execute_chosen_when_orb": true,
-    "entity_action_lost": {
-      "type": "origins:and",
-      "actions": [
-        {
-          "type": "origins:execute_command",
-          "command": "tag @s remove carn.wolf_pack"
-        },
-        {
-          "type": "origins:execute_command",
-          "command": "function reincarnation-origins:werewolf/kill_pack"
-        }
-      ]
-    },
-    "entity_action_removed": {
-      "type": "origins:execute_command",
-      "command": "function reincarnation-origins:werewolf/kill_pack"
-    },
-    "entity_action_respawned": {
-      "type": "origins:execute_command",
-      "command": "function reincarnation-origins:werewolf/kill_pack"
     }
   }
 }
