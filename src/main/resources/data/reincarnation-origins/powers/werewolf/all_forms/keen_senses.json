@@ -37,11 +37,6 @@
         "type": "origins:distance",
         "comparison": "<=",
         "compare_to": 16
-      },
-      {
-        "type": "origins:nbt",
-        "nbt": "{Tags:['carn.wolf_pack']}",
-        "inverted": true
       }
     ]
   }
