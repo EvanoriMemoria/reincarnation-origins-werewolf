@@ -5,7 +5,8 @@
     "reincarnation-origins:werewolf/all_forms/minion_team",
     "reincarnation-origins:werewolf/human/bloodlust",
     "reincarnation-origins:werewolf/human/transformation",
-    "reincarnation-origins:werewolf/human/summon_the_pack"
+    "reincarnation-origins:werewolf/human/summon_the_pack",
+    "reincarnation-origins:werewolf/human/callbacks"
   ],
   "icon": "minecraft:bone",
   "impact": 3,
