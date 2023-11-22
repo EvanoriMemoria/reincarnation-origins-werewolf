@@ -17,7 +17,7 @@
               "show_icon": true
             },
             {
-              "effect": "minecraft:strength",
+              "effect": "minecraft:regeneration",
               "duration": 300,
               "amplifier": 1,
               "is_ambient": true,
@@ -28,6 +28,22 @@
               "effect": "minecraft:speed",
               "duration": 300,
               "amplifier": 0,
+              "is_ambient": true,
+              "show_particles": false,
+              "show_icon": true
+            },
+            {
+              "effect": "minecraft:absorption",
+              "duration": 300,
+              "amplifier": 1,
+              "is_ambient": true,
+              "show_particles": false,
+              "show_icon": true
+            },
+            {
+              "effect": "minecraft:hunger",
+              "duration": 300,
+              "amplifier": 1,
               "is_ambient": true,
               "show_particles": false,
               "show_icon": true
@@ -43,7 +59,7 @@
           "type": "origins:add_velocity",
           "z": 1,
           "space": "local",
-          "set": true
+          "set": false
         },
         {
           "type": "origins:execute_command",
