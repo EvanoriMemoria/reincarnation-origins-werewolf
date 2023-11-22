@@ -1,7 +1,7 @@
 {
   "hidden": true,
   "type": "origins:multiple",
-  "no_dmg": {
+  "no_aggro_damage": {
     "type": "origins:modify_damage_taken",
     "damage_condition": {
       "type": "origins:name",
@@ -12,40 +12,18 @@
       "value": 0
     }
   },
-  "fall": {
+  "no_fall_damage": {
     "type": "origins:invulnerability",
     "damage_condition": {
       "type": "origins:from_falling"
     }
   },
-  "suffocate_immune": {
+  "no_suffocate_damage": {
     "type": "origins:invulnerability",
     "damage_condition": {
       "type": "origins:name",
       "name": "inWall"
     }
-  },
-  "onhit": {
-    "condition": {
-      "inverted": true,
-      "type": "origins:nbt",
-      "nbt": "{Tags:[carn.wolf_pack]}"
-    },
-    "type": "origins:self_action_on_hit",
-    "entity_action": {
-      "type": "origins:apply_effect",
-      "effects": [
-        {
-          "effect": "minecraft:regeneration",
-          "duration": 100,
-          "amplifier": 1,
-          "is_ambient": true,
-          "show_particles": true,
-          "show_icon": true
-        }
-      ]
-    },
-    "cooldown": 1
   },
   "onkill": {
     "type": "origins:self_action_on_kill",
