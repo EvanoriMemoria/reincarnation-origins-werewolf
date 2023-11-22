@@ -2,11 +2,6 @@
   "hidden": true,
   "type": "origins:multiple",
   "onhit": {
-    "condition": {
-      "inverted": true,
-      "type": "origins:nbt",
-      "nbt": "{Tags:[carn.wolf_pack]}"
-    },
     "type": "origins:self_action_on_hit",
     "entity_action": {
       "type": "origins:execute_command",
