@@ -29,19 +29,21 @@
   "power.reincarnation-origins.werewolf/brute/bloodlust.description": "Killing enemies fuels your rage, keeping you in brute form for longer.",
   "power.reincarnation-origins.werewolf/brute/berserk.name": "Berserk",
   "power.reincarnation-origins.werewolf/brute/berserk.description": "Channel your bloodlust into strength and resistance!",
+  "power.reincarnation-origins.werewolf/brute/pack.name": "Pack Mate",
+  "power.reincarnation-origins.werewolf/brute/pack.description": "Your most powerful pack mate joins you in the fight!",
 
 	"origin.reincarnation-origins.werewolf-lithe.name": "Werewolf: Lithe",
-  "origin.reincarnation-origins.werewolf-lithe.description": "The Ultimate predator, stalk your prey from the shadows and lunge at just the right moment!",
+  "origin.reincarnation-origins.werewolf-lithe.description": "The Ultimate Lone Wolf, stalk your prey from the shadows!",
   "power.reincarnation-origins.werewolf/lithe/attributes.name": "Naturally Lithe",
   "power.reincarnation-origins.werewolf/lithe/attributes.description": "You are faster, smaller, and hardier.",
   "power.reincarnation-origins.werewolf/lithe/bleed.name": "Serrated Claws",
   "power.reincarnation-origins.werewolf/lithe/bleed.description": "You cause bleeding when hitting an enemy with your claws. If you are invisible cause severe bleeding.",
   "power.reincarnation-origins.werewolf/lithe/buffs_while_invisible.name": "Cloaked Figure",
-  "power.reincarnation-origins.werewolf/lithe/buffs_while_invisible.description": "While invisible you move and attack faster.",
+  "power.reincarnation-origins.werewolf/lithe/buffs_while_invisible.description": "You are much stronger while invisible.",
   "power.reincarnation-origins.werewolf/lithe/immunity.name": "Slow Immune",
   "power.reincarnation-origins.werewolf/lithe/immunity.description": "You're immune to slowness.",
   "power.reincarnation-origins.werewolf/lithe/invisibility.name": "Stealth",
   "power.reincarnation-origins.werewolf/lithe/invisibility.description": "Cloak yourself for a short time. Lose invisibility when attacking.",
-  "power.reincarnation-origins.werewolf/lithe/leap.name": "Pounce",
-  "power.reincarnation-origins.werewolf/lithe/leap.description": "Lunge forward and cloak yourself, bypass the cooldown on kill."
+  "power.reincarnation-origins.werewolf/lithe/leap.name": "Stealthy",
+  "power.reincarnation-origins.werewolf/lithe/leap.description": "Activate to pounce on your enemies. Sneak + Activate to become invisible."
 }
