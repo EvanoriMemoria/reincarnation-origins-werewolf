@@ -18,6 +18,46 @@
             "is_ambient": true,
             "show_particles": false,
             "show_icon": true
+          },
+          {
+            "effect": "minecraft:strength",
+            "duration": 21,
+            "amplifier": 1,
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": true
+          },
+          {
+            "effect": "minecraft:resistance",
+            "duration": 21,
+            "amplifier": 1,
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": true
+          },
+          {
+            "effect": "minecraft:absorption",
+            "duration": 21,
+            "amplifier": 0,
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": false
+          },
+          {
+            "effect": "minecraft:jump_boost",
+            "duration": 21,
+            "amplifier": 1,
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": false
+          },
+          {
+            "effect": "minecraft:hunger",
+            "duration": 21,
+            "amplifier": 3,
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": false
           }
         ]
     },

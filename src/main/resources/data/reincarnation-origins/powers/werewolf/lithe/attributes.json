@@ -10,12 +10,12 @@
       },
       {
         "attribute": "minecraft:generic.armor_toughness",
-        "value": 4,
+        "value": 8,
         "operation": "addition"
       },
       {
         "attribute": "minecraft:generic.armor",
-        "value": 6,
+        "value": 10,
         "operation": "addition"
       }
     ]
