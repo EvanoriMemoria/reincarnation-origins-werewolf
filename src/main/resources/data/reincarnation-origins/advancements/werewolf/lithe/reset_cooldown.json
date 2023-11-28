@@ -18,5 +18,5 @@
 			"trigger":"minecraft:impossible"
 		}
 	},
-	"parent":"reincarnation-origins:werewolf/active_leap"
+	"parent":"reincarnation-origins:werewolf/lithe/active_leap"
 }

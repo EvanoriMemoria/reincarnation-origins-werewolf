@@ -8,7 +8,7 @@
 			"translate":"reincarnation-origins.advancements.werewolf.misc.feast.description"
 		},
 		"icon":{
-			"item":"minecraft:steak"
+			"item":"minecraft:cooked_beef"
 		},
 		"announce_to_chat":false,
 		"background":"minecraft:textures/gui/advancements/backgrounds/stone.png"

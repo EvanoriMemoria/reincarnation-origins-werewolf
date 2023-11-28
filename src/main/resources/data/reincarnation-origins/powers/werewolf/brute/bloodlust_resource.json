@@ -21,7 +21,7 @@
     },
     "max_action": {
       "type": "origins:execute_command",
-      "command": "function reincarnation-origins:werewolf/brute/full_bar"
+      "command": "advancement grant @p only reincarnation-origins:werewolf/brute/full_bar"
     },
     "hud_render": {
       "should_render": true,
