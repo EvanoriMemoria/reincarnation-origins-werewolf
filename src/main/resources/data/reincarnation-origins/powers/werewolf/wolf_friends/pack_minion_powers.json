@@ -48,5 +48,50 @@
       "type": "origins:name",
       "name": "inWall"
     }
+  },
+  "onhit": {
+    "type": "origins:self_action_on_hit",
+    "entity_action": {
+      "type": "origins:choice",
+      "actions": [
+        {
+          "element": {
+            "type": "origins:execute_command",
+            "command": "function reincarnation-origins:werewolf/wolf_friends/regeneration"
+          },
+          "weight": 1
+        },
+        {
+          "element": {
+            "type": "origins:execute_command",
+            "command": "function reincarnation-origins:werewolf/wolf_friends/strength"
+          },
+          "weight": 1
+        },
+        {
+          "element": {
+            "type": "origins:execute_command",
+            "command": "function reincarnation-origins:werewolf/wolf_friends/resistance"
+          },
+          "weight": 1
+        },
+        {
+          "element": {
+            "type": "origins:execute_command",
+            "command": "function reincarnation-origins:werewolf/wolf_friends/speed"
+          },
+          "weight": 1
+        }
+      ]
+    },
+    "cooldown": 1
+  },
+  "onkill": {
+    "type": "origins:self_action_on_kill",
+    "entity_action": {
+      "type": "origins:execute_command",
+      "command": "resource change @p reincarnation-origins:werewolf/human/bloodlust_bar 1"
+    },
+    "cooldown": 1
   }
 }
