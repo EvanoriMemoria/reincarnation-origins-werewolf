@@ -19,6 +19,10 @@
       {
         "type": "origins:execute_command",
         "command": "advancement grant @s only reincarnation-origins:werewolf/human_transformation"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "advancement grant @s only reincarnation-origins:werewolf/misc"
       }
     ]
   },

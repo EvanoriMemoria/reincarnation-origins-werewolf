@@ -1,32 +1,87 @@
 {
-  "type": "origins:restrict_armor",
-  "head": {
-    "type": "origins:ingredient",
-    "ingredient": {
+  "type": "origins:multiple",
+  "restrictions": {
+    "type": "origins:restrict_armor",
+    "head": {
+      "type": "origins:ingredient",
+      "ingredient": {
         "item": "minecraft:leather_helmet"
+      },
+      "inverted": true
     },
-    "inverted": true
-  },
-  "chest": {
-    "type": "origins:ingredient",
-    "ingredient": {
+    "chest": {
+      "type": "origins:ingredient",
+      "ingredient": {
         "item": "minecraft:leather_chestplate"
+      },
+      "inverted": true
     },
-    "inverted": true
-  },
-  "legs": {
-    "type": "origins:ingredient",
-    "ingredient": {
+    "legs": {
+      "type": "origins:ingredient",
+      "ingredient": {
         "item": "minecraft:leather_leggings"
+      },
+      "inverted": true
     },
-    "inverted": true
-  },
-  "feet": {
-    "type": "origins:ingredient",
-    "ingredient": {
+    "feet": {
+      "type": "origins:ingredient",
+      "ingredient": {
         "item": "minecraft:leather_boots"
+      },
+      "inverted": true
     },
-    "inverted": true
+    "tick_rate": 20
   },
-  "tick_rate": 20
+  "advancment": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:execute_command",
+      "command": "advancement grant @s only reincarnation-origins:werewolf/misc/full_leather"
+    },
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "head",
+          "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "item": "minecraft:leather_helmet"
+            }
+          }
+        },
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "chest",
+          "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "item": "minecraft:leather_chestplate"
+            }
+          }
+        },
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "legs",
+          "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "item": "minecraft:leather_leggings"
+            }
+          }
+        },
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "feet",
+          "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "item": "minecraft:leather_boots"
+            }
+          }
+        }
+      ]
+    }
+  }
 }

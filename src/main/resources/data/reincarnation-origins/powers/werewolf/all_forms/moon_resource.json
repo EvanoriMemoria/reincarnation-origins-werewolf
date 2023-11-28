@@ -24,8 +24,17 @@
             "compare_to": 1
           },
           "action": {
-            "type": "origins:execute_command",
-            "command": "resource set @s reincarnation-origins:werewolf/all_forms/moon_resource_bar 4"
+            "type": "origins:and",
+            "actions": [
+              {
+                "type": "origins:execute_command",
+                "command": "resource set @s reincarnation-origins:werewolf/all_forms/moon_resource_bar 4"
+              },
+              {
+                "type": "origins:execute_command",
+                "command": "advancement grant @s only reincarnation-origins:werewolf/misc/full_moon"
+              }
+            ]
           }
         },
         {
@@ -60,8 +69,17 @@
             "compare_to": 1
           },
           "action": {
-            "type": "origins:execute_command",
-            "command": "resource set @s reincarnation-origins:werewolf/all_forms/moon_resource_bar 1"
+            "type": "origins:and",
+            "actions": [
+              {
+                "type": "origins:execute_command",
+                "command": "resource set @s reincarnation-origins:werewolf/all_forms/moon_resource_bar 1"
+              },
+              {
+                "type": "origins:execute_command",
+                "command": "advancement grant @s only reincarnation-origins:werewolf/misc/new_moon"
+              }
+            ]
           }
         },
         {

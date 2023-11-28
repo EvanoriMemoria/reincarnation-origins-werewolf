@@ -1,0 +1,22 @@
+{
+	"display":{
+		"title":{
+			"translate":"reincarnation-origins.advancements.werewolf.misc.new_moon.name",
+			"color":"orange"
+		},
+		"description":{
+			"translate":"reincarnation-origins.advancements.werewolf.misc.new_moon.description"
+		},
+		"icon":{
+			"item":"minecraft:heart_of_the_sea"
+		},
+		"announce_to_chat":false,
+		"background":"minecraft:textures/gui/advancements/backgrounds/stone.png"
+	},
+	"criteria":{
+		"b":{
+			"trigger":"minecraft:impossible"
+		}
+	},
+	"parent":"reincarnation-origins:werewolf/misc"
+}
