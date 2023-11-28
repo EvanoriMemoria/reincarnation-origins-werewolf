@@ -64,6 +64,10 @@
         {
           "type": "origins:execute_command",
           "command": "power grant @s reincarnation-origins:werewolf/brute/berserk_overlay"
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "advancement grant @s only reincarnation-origins:werewolf/brute/berserk"
         }
       ]
     },

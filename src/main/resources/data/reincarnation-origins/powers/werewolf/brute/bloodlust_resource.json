@@ -19,6 +19,10 @@
         }
       ]
     },
+    "max_action": {
+      "type": "origins:execute_command",
+      "command": "function reincarnation-origins:werewolf/brute/full_bar"
+    },
     "hud_render": {
       "should_render": true,
       "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",

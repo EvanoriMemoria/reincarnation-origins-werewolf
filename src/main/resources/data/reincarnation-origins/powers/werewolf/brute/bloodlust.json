@@ -1,9 +1,36 @@
 {
-    "type": "origins:self_action_on_kill",
-    "entity_action": {
-      "type": "origins:change_resource",
-      "resource": "reincarnation-origins:werewolf/brute/bloodlust_resource_bar",
-      "change": 200
-    },
-    "cooldown": 20
+  "type": "origins:self_action_on_kill",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:change_resource",
+        "resource": "reincarnation-origins:werewolf/brute/bloodlust_resource_bar",
+        "change": 200
+      },
+      {
+        "type": "origins:change_resource",
+        "resource": "reincarnation-origins:werewolf/brute/bloodlust_resource_bar",
+        "change": 50,
+        "condition": {
+          "type": "origins:advancement",
+          "advancement": "reincarnation-origins:werewolf/brute/two_minute_timer"
+        }
+      },
+      {
+        "type": "origins:change_resource",
+        "resource": "reincarnation-origins:werewolf/brute/bloodlust_resource_bar",
+        "change": 50,
+        "condition": {
+          "type": "origins:advancement",
+          "advancement": "reincarnation-origins:werewolf/brute/full_bar"
+        }
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "advancement grant @s only reincarnation-origins:werewolf/brute/gain_bloodlust"
+      }
+    ]
+  },
+  "cooldown": 1
 }

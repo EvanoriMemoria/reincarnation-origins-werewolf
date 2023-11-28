@@ -16,6 +16,7 @@
     "reincarnation-origins:werewolf/brute/bloodlust_resource",
     "reincarnation-origins:werewolf/brute/bleed",
     "reincarnation-origins:werewolf/brute/berserk",
+    "reincarnation-origins:werewolf/brute/bloodlust_advancement_timer",
     "reincarnation-origins:werewolf/brute/callbacks"
   ],
   "icon": "minecraft:stone",

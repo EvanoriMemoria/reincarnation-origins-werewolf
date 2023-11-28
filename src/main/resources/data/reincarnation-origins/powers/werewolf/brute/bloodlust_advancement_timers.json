@@ -1,0 +1,88 @@
+{
+  "hidden": true,
+  "type": "origins:multiple",
+  "bar": {
+    "type": "origins:resource",
+    "min": 0,
+    "max": 72000,
+    "start_value": 0
+  },
+  "checks": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:execute_command",
+          "command": "advancement grant @s only reincarnation-origins:werewolf/brute/two_minute_timer",
+          "condition": {
+            "type": "origins:resource",
+            "resource": "reincarnation-origins:werewolf/brute/bloodlust_advancement_timer_bar",
+            "comparison": ">=",
+            "compare_to": 2400
+          }
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "advancement grant @s only reincarnation-origins:werewolf/brute/five_minute_timer",
+          "condition": {
+            "type": "origins:resource",
+            "resource": "reincarnation-origins:werewolf/brute/bloodlust_advancement_timer_bar",
+            "comparison": ">=",
+            "compare_to": 6000
+          }
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "advancement grant @s only reincarnation-origins:werewolf/brute/ten_minute_timer",
+          "condition": {
+            "type": "origins:resource",
+            "resource": "reincarnation-origins:werewolf/brute/bloodlust_advancement_timer_bar",
+            "comparison": ">=",
+            "compare_to": 12000
+          }
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "advancement grant @s only reincarnation-origins:werewolf/brute/fifteen_minute_timer",
+          "condition": {
+            "type": "origins:resource",
+            "resource": "reincarnation-origins:werewolf/brute/bloodlust_advancement_timer_bar",
+            "comparison": ">=",
+            "compare_to": 18000
+          }
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "advancement grant @s only reincarnation-origins:werewolf/brute/thirty_minute_timer",
+          "condition": {
+            "type": "origins:resource",
+            "resource": "reincarnation-origins:werewolf/brute/bloodlust_advancement_timer_bar",
+            "comparison": ">=",
+            "compare_to": 36000
+          }
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "advancement grant @s only reincarnation-origins:werewolf/brute/sixty_minute_timer",
+          "condition": {
+            "type": "origins:resource",
+            "resource": "reincarnation-origins:werewolf/brute/bloodlust_advancement_timer_bar",
+            "comparison": ">=",
+            "compare_to": 72000
+          }
+        }
+      ]
+    },
+    "interval": 20
+  },
+  "tick": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "reincarnation-origins:werewolf/brute/bloodlust_advancement_timer_bar",
+      "change": 20
+    },
+    "interval": 20
+  }
+}

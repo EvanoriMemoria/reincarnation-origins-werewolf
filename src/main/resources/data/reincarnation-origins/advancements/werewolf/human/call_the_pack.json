@@ -14,8 +14,9 @@
 		"background":"minecraft:textures/gui/advancements/backgrounds/stone.png"
 	},
 	"criteria":{
-		"a":{
-			"trigger":"reincarnation-origins:werewolf/human_transformation"
+		"b":{
+			"trigger":"minecraft:impossible"
 		}
-	}
+	},
+	"parent":"reincarnation-origins:werewolf/human_transformation"
 }
