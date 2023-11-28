@@ -1,0 +1,46 @@
+{
+  "hidden": "true",
+  "type": "origins:multiple",
+  "first_bloodlust": {
+    "type": "origins:self_action_on_kill",
+    "entity_action": {
+      "type": "origins:execute_command",
+      "command": "advancement grant @s only reincarnation-origins:werewolf/human/first_bloodlust"
+    },
+    "condition": {
+      "type": "origins:resource",
+      "resource": "reincarnation-origins:werewolf/human/bloodlust_bar",
+      "comparison": ">=",
+      "compare_to": 1
+    },
+    "cooldown": 1
+  },
+  "half_bloodlust": {
+    "type": "origins:self_action_on_kill",
+    "entity_action": {
+      "type": "origins:execute_command",
+      "command": "advancement grant @s only reincarnation-origins:werewolf/human/half_bloodlust"
+    },
+    "condition": {
+      "type": "origins:resource",
+      "resource": "reincarnation-origins:werewolf/human/bloodlust_bar",
+      "comparison": ">=",
+      "compare_to": 4
+    },
+    "cooldown": 1
+  },
+  "full_bloodlust": {
+    "type": "origins:self_action_on_kill",
+    "entity_action": {
+      "type": "origins:execute_command",
+      "command": "advancement grant @s only reincarnation-origins:werewolf/human/full_bloodlust"
+    },
+    "condition": {
+      "type": "origins:resource",
+      "resource": "reincarnation-origins:werewolf/human/bloodlust_bar",
+      "comparison": ">=",
+      "compare_to": 9
+    },
+    "cooldown": 1
+  }
+}

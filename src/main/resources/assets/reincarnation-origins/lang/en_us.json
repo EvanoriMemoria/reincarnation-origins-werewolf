@@ -6,6 +6,25 @@
 	"power.reincarnation-origins.werewolf/human/summon_the_pack.name": "Pack Call",
   "power.reincarnation-origins.werewolf/human/summon_the_pack.description": "Call to your pack, summoning them to your location. [SHIFT + Summon] to unsummon them.",
 
+  "reincarnation-origins.advancements.werewolf.human_transformation.name": "Pack Alpha",
+	"reincarnation-origins.advancements.werewolf.human_transformation.description": "You're the alpha!",
+  "reincarnation-origins.advancements.werewolf.human.call_the_pack.name": "Awooo!",
+	"reincarnation-origins.advancements.werewolf.human.call_the_pack.description": "Call the pack to your side!",
+  "reincarnation-origins.advancements.werewolf.human.regeneration.name": "Healing Bite",
+	"reincarnation-origins.advancements.werewolf.human.regeneration.description": "Have one of your wolves apply Regeneration to the pack.",
+  "reincarnation-origins.advancements.werewolf.human.resistance.name": "Inspiring Bite",
+	"reincarnation-origins.advancements.werewolf.human.resistance.description": "Have one of your wolves apply Resistance to the pack.",
+  "reincarnation-origins.advancements.werewolf.human.strength.name": "Powerful Bite",
+	"reincarnation-origins.advancements.werewolf.human.strength.description": "Have one of your wolves apply Strength to the pack.",
+  "reincarnation-origins.advancements.werewolf.human.speed.name": "Quick Bite",
+	"reincarnation-origins.advancements.werewolf.human.speed.description": "Have one of your wolves apply Speed to the pack.",
+  "reincarnation-origins.advancements.werewolf.human.first_bloodlust.name": "Bloodlust!",
+	"reincarnation-origins.advancements.werewolf.human.first_bloodlust.description": "Taste blood for the first time.",
+  "reincarnation-origins.advancements.werewolf.human.half_bloodlust.name": "FEED ME",
+	"reincarnation-origins.advancements.werewolf.human.half_bloodlust.description": "Gain enough blood to be able to take on your Lithe Form.",
+  "reincarnation-origins.advancements.werewolf.human.full_bloodlust.name": "Full Belly",
+	"reincarnation-origins.advancements.werewolf.human.full_bloodlust.description": "Create enough carnage to be able to take on your Brute Form.",
+
 	"power.reincarnation-origins.werewolf/all_forms/feast.name": "Feast!",
   "power.reincarnation-origins.werewolf/all_forms/feast.description": "You are unable to eat food or regenerate health. Gain sustenance and health by feasting on enemies killed by your claws.",
   "power.reincarnation-origins.werewolf/all_forms/keen_senses.name": "Keen Senses",
@@ -32,6 +51,9 @@
   "power.reincarnation-origins.werewolf/brute/pack.name": "Pack Mate",
   "power.reincarnation-origins.werewolf/brute/pack.description": "Your most powerful pack mate joins you in the fight!",
 
+  "reincarnation-origins.advancements.werewolf.brute_transformation.name": "Brute Strength",
+	"reincarnation-origins.advancements.werewolf.brute_transformation.description": "Take on your Brute form by channeling your full bloodlust!",
+
 	"origin.reincarnation-origins.werewolf-lithe.name": "Werewolf: Lithe",
   "origin.reincarnation-origins.werewolf-lithe.description": "The Ultimate Lone Wolf, stalk your prey from the shadows!",
   "power.reincarnation-origins.werewolf/lithe/attributes.name": "Naturally Lithe",
@@ -45,5 +67,9 @@
   "power.reincarnation-origins.werewolf/lithe/invisibility.name": "Stealth",
   "power.reincarnation-origins.werewolf/lithe/invisibility.description": "Cloak yourself for a short time. Lose invisibility when attacking.",
   "power.reincarnation-origins.werewolf/lithe/leap.name": "Stealthy",
-  "power.reincarnation-origins.werewolf/lithe/leap.description": "Activate to pounce on your enemies. Sneak + Activate to become invisible."
+  "power.reincarnation-origins.werewolf/lithe/leap.description": "Activate to pounce on your enemies. Sneak + Activate to become invisible.",
+
+  "reincarnation-origins.advancements.werewolf.lithe_transformation.name": "Wicked Stealth",
+	"reincarnation-origins.advancements.werewolf.lithe_transformation.description": "Take on your Lithe form by channeling a portion of your bloodlust!"
+
 }

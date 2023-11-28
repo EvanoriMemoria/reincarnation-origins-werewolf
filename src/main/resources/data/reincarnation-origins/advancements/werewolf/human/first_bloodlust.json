@@ -1,0 +1,21 @@
+{
+	"display":{
+		"title":{
+			"translate":"reincarnation-origins.advancements.werewolf.human.first_bloodlust.name",
+			"color":"orange"
+		},
+		"description":{
+			"translate":"reincarnation-origins.advancements.werewolf.human.first_bloodlust.description"
+		},
+		"icon":{
+			"item":"minecraft:bow"
+		},
+		"announce_to_chat":false,
+		"background":"minecraft:textures/gui/advancements/backgrounds/stone.png"
+	},
+	"criteria":{
+		"a":{
+			"trigger":"reincarnation-origins:werewolf/human_transformation"
+		}
+	}
+}
