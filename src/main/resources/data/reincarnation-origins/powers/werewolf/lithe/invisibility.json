@@ -51,15 +51,24 @@
     "type": "origins:action_over_time",
     "interval": 20,
     "entity_action": {
-      "type": "origins:apply_effect",
-      "effect": {
-        "effect": "minecraft:invisibility",
-        "duration": 300,
-        "amplifier": 0,
-        "is_ambient": true,
-        "show_particles": false,
-        "show_icon": true
-      }
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:apply_effect",
+          "effect": {
+            "effect": "minecraft:invisibility",
+            "duration": 300,
+            "amplifier": 0,
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": true
+          }
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "advancement grant @s only reincarnation-origins:werewolf/lithe/invisibility"
+        }
+      ]
     },
     "condition": {
       "type": "origins:resource",

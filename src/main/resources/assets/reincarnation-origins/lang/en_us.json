@@ -1,8 +1,8 @@
 {
   "origin.reincarnation-origins.werewolf-human.description": "You are a transformative creature, shifting into different shapes and summoning your loyal pack to assist you.",
   "origin.reincarnation-origins.werewolf-human.name": "Werewolf: Human",
-  "power.reincarnation-origins.werewolf/human/transformation.name": "§4Bloodlust§r",
-  "power.reincarnation-origins.werewolf/human/transformation.description": "Killing enemies fuels your transformations. Half a bar of §4Blood§r to transform into Lithe Form, and a full bar to shift into Brute Form",
+  "power.reincarnation-origins.werewolf/human/transformation.name": "§4Bloodlust§a",
+  "power.reincarnation-origins.werewolf/human/transformation.description": "Killing enemies fuels your transformations. Half a bar of §4Blood§a to transform into Lithe Form, and a full bar to shift into Brute Form",
 	"power.reincarnation-origins.werewolf/human/summon_the_pack.name": "Pack Call",
   "power.reincarnation-origins.werewolf/human/summon_the_pack.description": "Call to your pack, summoning them to your location. [SHIFT + Summon] to unsummon them.",
 
@@ -19,9 +19,9 @@
   "reincarnation-origins.advancements.werewolf.human.speed.name": "Quick Bite",
 	"reincarnation-origins.advancements.werewolf.human.speed.description": "Have one of your wolves apply Speed to the pack.",
   "reincarnation-origins.advancements.werewolf.human.first_bloodlust.name": "Bloodlust!",
-	"reincarnation-origins.advancements.werewolf.human.first_bloodlust.description": "Taste §4Blood§r for the first time.",
+	"reincarnation-origins.advancements.werewolf.human.first_bloodlust.description": "Taste §4Blood§a for the first time.",
   "reincarnation-origins.advancements.werewolf.human.half_bloodlust.name": "FEED ME",
-	"reincarnation-origins.advancements.werewolf.human.half_bloodlust.description": "Gain enough §4Blood§r to be able to take on your Lithe Form.",
+	"reincarnation-origins.advancements.werewolf.human.half_bloodlust.description": "Gain enough §4Blood§a to be able to take on your Lithe Form.",
   "reincarnation-origins.advancements.werewolf.human.full_bloodlust.name": "Full Belly",
 	"reincarnation-origins.advancements.werewolf.human.full_bloodlust.description": "Create enough carnage to be able to take on your Brute Form.",
 
@@ -46,10 +46,10 @@
   "power.reincarnation-origins.werewolf/brute/attributes.description": "You are more powerful in this form, you naturally have increased strength and hardiness. You're also larger.",
   "power.reincarnation-origins.werewolf/brute/bleed.name": "Sharp Claws",
   "power.reincarnation-origins.werewolf/brute/bleed.description": "You do more damage and cause bleeding with your claws.",
-  "power.reincarnation-origins.werewolf/brute/bloodlust.name": "§4Rage§r",
-  "power.reincarnation-origins.werewolf/brute/bloodlust.description": "Killing enemies fuels your §4Rage§r, keeping you in brute form for longer.",
+  "power.reincarnation-origins.werewolf/brute/bloodlust.name": "§4Rage§a",
+  "power.reincarnation-origins.werewolf/brute/bloodlust.description": "Killing enemies fuels your §4Rage§a, keeping you in brute form for longer.",
   "power.reincarnation-origins.werewolf/brute/berserk.name": "Berserk",
-  "power.reincarnation-origins.werewolf/brute/berserk.description": "Channel your §4Rage§r into strength and resistance!",
+  "power.reincarnation-origins.werewolf/brute/berserk.description": "Channel your §4Rage§a into strength and resistance!",
   "power.reincarnation-origins.werewolf/brute/pack.name": "Pack Mate",
   "power.reincarnation-origins.werewolf/brute/pack.description": "Your most powerful pack mate joins you in the fight!",
 
@@ -66,9 +66,9 @@
   "reincarnation-origins.advancements.werewolf.brute.minion_effects.name": "Strength of the few",
 	"reincarnation-origins.advancements.werewolf.brute.minion_effects.description": "Have your pack-mate grant you both Strength and Haste.",
   "reincarnation-origins.advancements.werewolf.brute.full_bar.name": "Full of Rage",
-	"reincarnation-origins.advancements.werewolf.brute.full_bar.description": "Fill your §4Rage§r bar. You'll now gain more §4Rage§r on kill while in Brute Form.",
+	"reincarnation-origins.advancements.werewolf.brute.full_bar.description": "Fill your §4Rage§a bar. You'll now gain more §4Rage§a on kill while in Brute Form.",
   "reincarnation-origins.advancements.werewolf.brute.two_minute_timer.name": "Resilient",
-	"reincarnation-origins.advancements.werewolf.brute.two_minute_timer.description": "Stay in Brute Form for two consecutive minutes! You'll now gain more §4Rage§r on kill while in Brute Form.",
+	"reincarnation-origins.advancements.werewolf.brute.two_minute_timer.description": "Stay in Brute Form for two consecutive minutes! You'll now gain more §4Rage§a on kill while in Brute Form.",
   "reincarnation-origins.advancements.werewolf.brute.five_minute_timer.name": "Bloodlust is real",
 	"reincarnation-origins.advancements.werewolf.brute.five_minute_timer.description": "Stay in Brute Form for five consecutive minutes!",
   "reincarnation-origins.advancements.werewolf.brute.ten_minute_timer.name": "Determination",
@@ -96,7 +96,19 @@
   "power.reincarnation-origins.werewolf/lithe/leap.name": "Stealthy",
   "power.reincarnation-origins.werewolf/lithe/leap.description": "Activate to pounce on your enemies. Sneak + Activate to become invisible.",
 
-  "reincarnation-origins.advancements.werewolf.lithe_transformation.name": "Wicked Stealth",
-	"reincarnation-origins.advancements.werewolf.lithe_transformation.description": "Take on your Lithe form by channeling a portion of your bloodlust!"
+  "reincarnation-origins.advancements.werewolf.lithe_transformation.name": "Lone Wolf",
+	"reincarnation-origins.advancements.werewolf.lithe_transformation.description": "Take on your Lithe form by channeling a portion of your bloodlust!",
+  "reincarnation-origins.advancements.werewolf.lithe.invisibility.name": "Stealth++",
+	"reincarnation-origins.advancements.werewolf.lithe.invisibility.description": "Turn invisible by crouching in the shadows for 5 seconds.",
+  "reincarnation-origins.advancements.werewolf.lithe.reset_cooldown.name": "Recharged and Ready",
+	"reincarnation-origins.advancements.werewolf.lithe.reset_cooldown.description": "Reset the cooldown of your leap/stealth by killing an enemy with your claws.",
+  "reincarnation-origins.advancements.werewolf.lithe.active_leap.name": "Pounce from the dark",
+	"reincarnation-origins.advancements.werewolf.lithe.active_leap.description": "Leap at an enemy, turning invisible and preparing to inflict Severe Bleeding",
+  "reincarnation-origins.advancements.werewolf.lithe.active_stealth.name": "Cloak of Shadows",
+	"reincarnation-origins.advancements.werewolf.lithe.active_stealth.description": "Cloak yourself and gain immense power.",
+  "reincarnation-origins.advancements.werewolf.lithe.bleed.name": "Bleeding out",
+	"reincarnation-origins.advancements.werewolf.lithe.bleed.description": "Inflict Bleeding on an enemy with your claws.",
+  "reincarnation-origins.advancements.werewolf.lithe.severe_bleed.name": "Bleed them dry",
+	"reincarnation-origins.advancements.werewolf.lithe.severe_bleed.description": "Inflict an enemy with Severe Bleeding with your claws."
 
 }

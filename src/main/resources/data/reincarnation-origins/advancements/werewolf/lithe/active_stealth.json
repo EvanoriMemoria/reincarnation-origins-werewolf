@@ -1,0 +1,22 @@
+{
+	"display":{
+		"title":{
+			"translate":"reincarnation-origins.advancements.werewolf.lithe.active_stealth.name",
+			"color":"orange"
+		},
+		"description":{
+			"translate":"reincarnation-origins.advancements.werewolf.lithe.active_stealth.description"
+		},
+		"icon":{
+			"item":"minecraft:leather_boots"
+		},
+		"announce_to_chat":false,
+		"background":"minecraft:textures/gui/advancements/backgrounds/stone.png"
+	},
+	"criteria":{
+		"b":{
+			"trigger":"minecraft:impossible"
+		}
+	},
+	"parent":"reincarnation-origins:werewolf/lithe_transformation"
+}

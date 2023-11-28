@@ -8,12 +8,30 @@
       "min_amplifier": 0
     },
     "if_action": {
-      "type": "origins:execute_command",
-      "command": "power grant @s reincarnation-origins:werewolf/severe_bleeding"
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:execute_command",
+          "command": "power grant @s reincarnation-origins:werewolf/severe_bleeding"
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "advancement grant @s only reincarnation-origins:werewolf/lithe/severe_bleed"
+        }
+      ]
     },
     "else_action": {
-      "type": "origins:execute_command",
-      "command": "power grant @s reincarnation-origins:werewolf/bleeding"
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:execute_command",
+          "command": "power grant @s reincarnation-origins:werewolf/bleeding"
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "advancement grant @s only reincarnation-origins:werewolf/lithe/bleed"
+        }
+      ]
     }
   },
   "condition": {

@@ -5,8 +5,17 @@
     "actions": [
       {
         "action": {
-          "type": "origins:execute_command",
-          "command": "function reincarnation-origins:werewolf/brute-transformation"
+          "type": "origins:and",
+          "actions": [
+            {
+              "type": "origins:execute_command",
+              "command": "function reincarnation-origins:werewolf/brute-transformation"
+            },
+            {
+              "type": "origins:execute_command",
+              "command": "advancement grant @s only reincarnation-origins:werewolf/brute_transformation"
+            }
+          ]
         },
         "condition": {
           "type": "origins:resource",
@@ -17,8 +26,17 @@
       },
       {
         "action": {
-          "type": "origins:execute_command",
-          "command": "function reincarnation-origins:werewolf/lithe-transformation"
+          "type": "origins:and",
+          "actions": [
+            {
+              "type": "origins:execute_command",
+              "command": "function reincarnation-origins:werewolf/lithe-transformation"
+            },
+            {
+              "type": "origins:execute_command",
+              "command": "advancement grant @s only reincarnation-origins:werewolf/lithe_transformation"
+            }
+          ]
         },
         "condition": {
           "type": "origins:resource",

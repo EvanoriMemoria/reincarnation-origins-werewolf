@@ -24,6 +24,10 @@
           {
             "type": "origins:execute_command",
             "command": "execute at @s run playsound minecraft:entity.wolf.growl player @s ~ ~ ~ 1 0.50"
+          },
+          {
+            "type": "origins:execute_command",
+            "command": "advancement grant @s only reincarnation-origins:werewolf/lithe/active_stealth"
           }
         ]
       },
@@ -50,6 +54,10 @@
           {
             "type": "origins:execute_command",
             "command": "execute at @s run playsound minecraft:entity.ravager.attack player @s ~ ~ ~ 1 0.50"
+          },
+          {
+            "type": "origins:execute_command",
+            "command": "advancement grant @s only reincarnation-origins:werewolf/lithe/active_leap"
           }
         ]
       }
@@ -65,8 +73,17 @@
     "type": "origins:self_action_on_kill",
     "cooldown": 20,
     "entity_action": {
-      "type": "origins:execute_command",
-      "command": "resource set @s reincarnation-origins:werewolf/lithe/leap_active 600"
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:execute_command",
+          "command": "resource set @s reincarnation-origins:werewolf/lithe/leap_active 600"
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "advancement grant @s only reincarnation-origins:werewolf/lithe/reset_cooldown"
+        }
+      ]
     },
     "damage_condition": {
       "type": "origins:attacker",
@@ -77,6 +94,12 @@
           "type": "origins:empty"
         }
       }
+    },
+    "condition": {
+      "type": "origins:resource",
+      "resource": "reincarnation-origins:werewolf/lithe/leap_active",
+      "comparison": "!=",
+      "compare_to": 0
     }
   },
   "lose_invis_on_hit": {
