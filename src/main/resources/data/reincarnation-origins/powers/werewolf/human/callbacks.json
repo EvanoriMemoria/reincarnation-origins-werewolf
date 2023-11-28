@@ -48,10 +48,6 @@
     "actions": [
       {
         "type": "origins:execute_command",
-        "command": "tag @s remove carn.wolf_pack"
-      },
-      {
-        "type": "origins:execute_command",
         "command": "function reincarnation-origins:werewolf/kill_pack"
       }
     ]
