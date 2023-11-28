@@ -24,7 +24,7 @@
           "type": "origins:resource",
           "resource": "reincarnation-origins:werewolf/human/bloodlust_bar",
           "comparison": ">=",
-          "compare_to": 4
+          "compare_to": 5
         }
       }
     ]

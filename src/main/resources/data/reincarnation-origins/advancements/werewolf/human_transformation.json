@@ -1,11 +1,11 @@
 {
 	"display":{
 		"title":{
-			"translate":"reincarnation-origins.advancements.werewolf.human-transformation.name",
+			"translate":"reincarnation-origins.advancements.werewolf.human_transformation.name",
 			"color":"orange"
 		},
 		"description":{
-			"translate":"reincarnation-origins.advancements.werewolf.human-transformation.description"
+			"translate":"reincarnation-origins.advancements.werewolf.human_transformation.description"
 		},
 		"icon":{
 			"item":"minecraft:bow"
@@ -14,8 +14,9 @@
 		"background":"minecraft:textures/gui/advancements/backgrounds/stone.png"
 	},
 	"criteria":{
-		"a":{
-			"trigger":"reincarnation-origins:werewolf/root"
+		"b":{
+			"trigger":"minecraft:impossible"
 		}
-	}
+	},
+	"parent":"reincarnation-origins:werewolf/root"
 }

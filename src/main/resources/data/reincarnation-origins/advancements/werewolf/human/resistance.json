@@ -14,8 +14,9 @@
 		"background":"minecraft:textures/gui/advancements/backgrounds/stone.png"
 	},
 	"criteria":{
-		"a":{
-			"trigger":"reincarnation-origins:werewolf/human/call_the_pack"
+		"b":{
+			"trigger":"minecraft:impossible"
 		}
-	}
+	},
+	"parent":"reincarnation-origins:werewolf/human/call_the_pack"
 }

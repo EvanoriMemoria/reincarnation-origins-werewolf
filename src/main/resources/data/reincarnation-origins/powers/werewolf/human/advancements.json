@@ -11,7 +11,7 @@
       "type": "origins:resource",
       "resource": "reincarnation-origins:werewolf/human/bloodlust_bar",
       "comparison": ">=",
-      "compare_to": 1
+      "compare_to": 0
     },
     "cooldown": 1
   },
@@ -39,7 +39,7 @@
       "type": "origins:resource",
       "resource": "reincarnation-origins:werewolf/human/bloodlust_bar",
       "comparison": ">=",
-      "compare_to": 9
+      "compare_to": 8
     },
     "cooldown": 1
   }

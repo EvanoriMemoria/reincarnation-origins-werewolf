@@ -6,12 +6,38 @@
   },
   "execute_chosen_when_orb": true,
   "entity_action_gained": {
-    "type": "origins:execute_command",
-    "command": "tag @s add carn.wolf_pack"
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:execute_command",
+        "command": "tag @s add carn.wolf_pack"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "advancement grant @s only reincarnation-origins:werewolf/root"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "advancement grant @s only reincarnation-origins:werewolf/human_transformation"
+      }
+    ]
   },
   "entity_action_added": {
-    "type": "origins:execute_command",
-    "command": "tag @s add carn.wolf_pack"
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:execute_command",
+        "command": "tag @s add carn.wolf_pack"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "advancement grant @s only reincarnation-origins:werewolf/root"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "advancement grant @s only reincarnation-origins:werewolf/human_transformation"
+      }
+    ]
   },
   "entity_action_lost": {
     "type": "origins:and",
