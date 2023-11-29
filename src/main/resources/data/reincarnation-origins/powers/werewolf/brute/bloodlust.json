@@ -6,7 +6,7 @@
       {
         "type": "origins:change_resource",
         "resource": "reincarnation-origins:werewolf/brute/bloodlust_resource_bar",
-        "change": 200
+        "change": 150
       },
       {
         "type": "origins:change_resource",
@@ -30,7 +30,14 @@
         "type": "origins:execute_command",
         "command": "advancement grant @s only reincarnation-origins:werewolf/brute/gain_bloodlust"
       }
-    ]
+    ],
+    "condition": {
+      "type": "origins:equipped_item",
+      "equipment_slot": "mainhand",
+      "item_condition": {
+        "type": "origins:empty"
+      }
+    }
   },
   "cooldown": 1
 }
