@@ -14,5 +14,3 @@ execute as @e[type=minecraft:wolf,tag=carn.temp,tag=carn.wolf_pack,tag=carn.summ
 execute as @e[type=minecraft:wolf,tag=carn.wolf_pack,tag=carn.summon,limit=1] if score @s carn.brute_pack_id = carn.brute_pack_counter carn.brute_pack_id run scoreboard players add carn.brute_pack_counter carn.brute_pack_id 1
 
 power grant @e[type=minecraft:wolf,tag=carn.wolf_pack,tag=carn.summon,tag=carn.brute_wolf,limit=1,sort=nearest] reincarnation-origins:werewolf/wolf_friends/brute_wolf_powers
-
-execute as @e[type=minecraft:wolf,tag=carn.wolf_pack,tag=carn.summon,limit=1,sort=nearest] run power grant @s reincarnation-origins:werewolf/wolf_friends/pack_minion_powers
