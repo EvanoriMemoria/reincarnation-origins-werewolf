@@ -13,8 +13,17 @@
         "bientity_condition": {
           "type": "origins:target_condition",
           "condition": {
-            "type": "origins:nbt",
-            "nbt": "{Tags:[carn.wolf_pack]}"
+            "type": "origins:and",
+            "conditions": [
+              {
+                "type": "origins:nbt",
+                "nbt": "{Tags:[carn.wolf_pack]}"
+              },
+              {
+                "type": "origins:entity_type",
+                "entity_type": "minecraft:wolf"
+              }
+            ]
           }
         },
         "bientity_action": {
