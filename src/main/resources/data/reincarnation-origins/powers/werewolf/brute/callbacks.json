@@ -11,6 +11,12 @@
       {
         "type": "origins:execute_command",
         "command": "function reincarnation-origins:werewolf/summon_brute_pack"
+      },
+      {
+        "type": "origins:change_resource",
+        "resource": "reincarnation-origins:werewolf/brute/bloodlust_advancement_timer_cooldown",
+        "operation": "set",
+        "change": "72100"
       }
     ]
   },
@@ -24,6 +30,12 @@
       {
         "type": "origins:execute_command",
         "command": "function reincarnation-origins:werewolf/summon_brute_pack"
+      },
+      {
+        "type": "origins:change_resource",
+        "resource": "reincarnation-origins:werewolf/brute/bloodlust_advancement_timer_cooldown",
+        "operation": "set",
+        "change": "72100"
       }
     ]
   },
@@ -41,6 +53,12 @@
       {
         "type": "origins:execute_command",
         "command": "power revoke @s reincarnation-origins:werewolf/brute/berserk_overlay"
+      },
+      {
+        "type": "origins:change_resource",
+        "resource": "reincarnation-origins:werewolf/brute/bloodlust_advancement_timer_cooldown",
+        "operation": "set",
+        "change": "72100"
       }
     ]
   },
@@ -58,6 +76,12 @@
       {
         "type": "origins:execute_command",
         "command": "effect clear @s minecraft:night_vision"
+      },
+      {
+        "type": "origins:change_resource",
+        "resource": "reincarnation-origins:werewolf/brute/bloodlust_advancement_timer_cooldown",
+        "operation": "set",
+        "change": "72100"
       }
     ]
   },
