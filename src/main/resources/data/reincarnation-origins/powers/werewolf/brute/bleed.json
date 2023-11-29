@@ -3,8 +3,17 @@
   "apply_bleed": {
     "type": "origins:target_action_on_hit",
     "entity_action": {
-      "type": "origins:execute_command",
-      "command": "power grant @s reincarnation-origins:werewolf/bleeding"
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:execute_command",
+          "command": "power grant @s reincarnation-origins:werewolf/bleeding"
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "advancement grant @p only reincarnation-origins:werewolf/brute/bleed"
+        }
+      ]
     },
     "condition": {
       "type": "origins:and",
@@ -15,6 +24,12 @@
           "item_condition": {
             "type": "origins:empty"
           }
+        },
+        {
+          "type": "origins:status_effect",
+          "effect": "minecraft:invisibility",
+          "min_amplifier": 0,
+          "inverted": true
         }
       ]
     },
@@ -30,16 +45,30 @@
           "type": "origins:nbt",
           "nbt": "{Tags:['carn.wolf_pack']}",
           "inverted": true
+        },
+        {
+          "type": "origins:health",
+          "comparison": ">",
+          "compare_to": 0
         }
       ]
     },
     "cooldown": 40
   },
-  "advancement": {
-    "type": "origins:action_on_hit",
+  "apply_severe_bleed": {
+    "type": "origins:target_action_on_hit",
     "entity_action": {
-      "type": "origins:execute_command",
-      "command": "advancement grant @p only reincarnation-origins:werewolf/brute/bleed"
+      "type": "origins:and",
+      "actions": [
+        {
+          "type": "origins:execute_command",
+          "command": "power grant @s reincarnation-origins:werewolf/severe_bleeding"
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "advancement grant @p only reincarnation-origins:werewolf/brute/severe_bleed"
+        }
+      ]
     },
     "condition": {
       "type": "origins:and",
@@ -50,6 +79,11 @@
           "item_condition": {
             "type": "origins:empty"
           }
+        },
+        {
+          "type": "origins:status_effect",
+          "effect": "minecraft:invisibility",
+          "min_amplifier": 0
         }
       ]
     },
@@ -65,6 +99,11 @@
           "type": "origins:nbt",
           "nbt": "{Tags:['carn.wolf_pack']}",
           "inverted": true
+        },
+        {
+          "type": "origins:health",
+          "comparison": ">",
+          "compare_to": 0
         }
       ]
     },
