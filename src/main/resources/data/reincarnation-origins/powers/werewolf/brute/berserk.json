@@ -11,7 +11,7 @@
             {
               "effect": "minecraft:resistance",
               "duration": 300,
-              "amplifier": 3,
+              "amplifier": 2,
               "is_ambient": true,
               "show_particles": false,
               "show_icon": true
@@ -28,14 +28,6 @@
               "effect": "minecraft:speed",
               "duration": 300,
               "amplifier": 0,
-              "is_ambient": true,
-              "show_particles": false,
-              "show_icon": true
-            },
-            {
-              "effect": "minecraft:absorption",
-              "duration": 300,
-              "amplifier": 1,
               "is_ambient": true,
               "show_particles": false,
               "show_icon": true
