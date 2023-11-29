@@ -2,7 +2,7 @@ function reincarnation-origins:werewolf/kill_brute_pack
 
 advancement grant @s only reincarnation-origins:werewolf/brute/pack_of_two
 
-summon wolf ~ ~0.5 ~ {DeathLootTable:"minecraft:empty",Team:"carn.all_summoners_team",PersistenceRequired:1b,CanPickUpLoot:0b,Health:50f,CollarColor:2b,Tags:["carn.wolf_pack","carn.summon","carn.temp","carn.brute_wolf"],Attributes:[{Name:generic.max_health,Base:50},{Name:generic.knockback_resistance,Base:1},{Name:generic.attack_damage,Base:12},{Name:generic.armor,Base:12},{Name:generic.armor_toughness,Base:12}],"pehkui:scale_data_types":{"pehkui:width":{scale:1.25f},"pehkui:height":{scale:1.25f},"pehkui:hitbox_width":{scale:1.25f}}}
+summon wolf ~ ~0.5 ~ {DeathLootTable:"minecraft:empty",Team:"carn.all_summoners_team",PersistenceRequired:1b,CanPickUpLoot:0b,Health:50f,CollarColor:2b,Tags:["carn.wolf_pack","carn.summon","carn.temp","carn.brute_wolf"],Attributes:[{Name:generic.max_health,Base:50},{Name:generic.knockback_resistance,Base:1},{Name:generic.attack_damage,Base:8},{Name:generic.armor,Base:12},{Name:generic.armor_toughness,Base:12}],"pehkui:scale_data_types":{"pehkui:width":{scale:1.75f},"pehkui:height":{scale:1.75f},"pehkui:hitbox_width":{scale:1.75f}}}
 team join carn.all_summoners_team @e[tag=carn.wolf_pack]
 team join carn.all_summoners_team @s
 playsound entity.wolf.ambient player @s
