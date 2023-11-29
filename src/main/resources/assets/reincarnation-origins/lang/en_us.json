@@ -55,7 +55,7 @@
   "power.reincarnation-origins.werewolf/brute/attributes.name": "Naturally Powerful",
   "power.reincarnation-origins.werewolf/brute/attributes.description": "You are more powerful in this form, you naturally have increased strength and hardiness. You're also larger.",
   "power.reincarnation-origins.werewolf/brute/bleed.name": "Sharp Claws",
-  "power.reincarnation-origins.werewolf/brute/bleed.description": "You do more damage and cause bleeding with your claws.",
+  "power.reincarnation-origins.werewolf/brute/bleed.description": "You do more damage and cause bleeding using your claws.",
   "power.reincarnation-origins.werewolf/brute/bloodlust.name": "§4Rage§a",
   "power.reincarnation-origins.werewolf/brute/bloodlust.description": "Killing enemies fuels your §4Rage§a, keeping you in brute form for longer.",
   "power.reincarnation-origins.werewolf/brute/berserk.name": "Berserk",
@@ -117,8 +117,8 @@
   "reincarnation-origins.advancements.werewolf.lithe.active_stealth.name": "Cloak of Shadows",
 	"reincarnation-origins.advancements.werewolf.lithe.active_stealth.description": "Cloak yourself and gain immense power.",
   "reincarnation-origins.advancements.werewolf.lithe.bleed.name": "Bleeding out",
-	"reincarnation-origins.advancements.werewolf.lithe.bleed.description": "Inflict Bleeding on an enemy with your claws.",
+	"reincarnation-origins.advancements.werewolf.lithe.bleed.description": "Inflict Bleeding on an enemy using your claws.",
   "reincarnation-origins.advancements.werewolf.lithe.severe_bleed.name": "Bleed them dry",
-	"reincarnation-origins.advancements.werewolf.lithe.severe_bleed.description": "Inflict an enemy with Severe Bleeding with your claws."
+	"reincarnation-origins.advancements.werewolf.lithe.severe_bleed.description": "Inflict an enemy with Severe Bleeding using your claws."
 
 }
