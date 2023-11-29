@@ -11,7 +11,7 @@
         },
         {
           "type": "origins:execute_command",
-          "command": "advancement grant @s only reincarnation-origins:werewolf/lithe/severe_bleed"
+          "command": "advancement grant @p only reincarnation-origins:werewolf/lithe/severe_bleed"
         }
       ]
     },
@@ -44,6 +44,11 @@
           "type": "origins:nbt",
           "nbt": "{Tags:['carn.wolf_pack']}",
           "inverted": true
+        },
+        {
+          "type": "origins:health",
+          "comparison": ">",
+          "compare_to": 0
         }
       ]
     },
@@ -60,7 +65,7 @@
         },
         {
           "type": "origins:execute_command",
-          "command": "advancement grant @s only reincarnation-origins:werewolf/lithe/bleed"
+          "command": "advancement grant @p only reincarnation-origins:werewolf/lithe/bleed"
         }
       ]
     },
@@ -94,6 +99,11 @@
           "type": "origins:nbt",
           "nbt": "{Tags:['carn.wolf_pack']}",
           "inverted": true
+        },
+        {
+          "type": "origins:health",
+          "comparison": ">",
+          "compare_to": 0
         }
       ]
     },
