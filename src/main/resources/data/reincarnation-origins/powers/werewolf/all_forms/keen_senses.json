@@ -1,7 +1,7 @@
 {
   "type": "origins:entity_glow",
   "entity_condition": {
-    "type": "origins:or",
+    "type": "origins:and",
     "conditions": [
       {
         "type": "origins:nbt",
